@@ -1,0 +1,8 @@
+  2024-09-24 13:43:33 App\Containers\AppSection\Job\Jobs\SyncAllCollaboratorsToHppUsersJob  RUNNING
+  2024-09-24 13:53:53 App\Containers\AppSection\Job\Jobs\SyncAllCollaboratorsToHppUsersJob  620,101.55ms DONE
+  2024-09-24 13:53:54 App\Containers\AppSection\Job\Jobs\SyncAllUsersToRolesJob  RUNNING
+  2024-09-24 13:54:58 App\Containers\AppSection\Job\Jobs\SyncAllUsersToRolesJob  63,240.03ms DONE
+  2024-09-24 13:55:24 App\Containers\AppSection\Authorization\Listeners\LdapBindEventListener  RUNNING
+  2024-09-24 13:55:24 App\Containers\AppSection\Authorization\Listeners\LdapBindEventListener  62.65ms DONE
+  2024-09-24 14:00:09 App\Containers\AppSection\Authorization\Listeners\LdapBindEventListener  RUNNING
+  2024-09-24 14:00:09 App\Containers\AppSection\Authorization\Listeners\LdapBindEventListener  12.69ms DONE
