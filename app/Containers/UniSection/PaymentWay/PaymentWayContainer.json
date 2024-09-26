@@ -1,0 +1,6 @@
+{
+    "name": "apiato/paymentway",
+    "description": "PaymentWay Container for apiato.",
+    "require": {
+    }
+}

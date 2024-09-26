@@ -22,13 +22,13 @@ class PaymentTransformer extends ParentTransformer
             'id' => $payment->getHashedKey(),
         ];
 
-        return $this->ifAdmin([
-            'real_id' => $payment->id,
+        return [
+            'id' => $payment->id,
+            'student_id' => $payment->student_id,
+            'amount' => $payment->amount,
+            'payment_way_id' => $payment->payment_way_id,
             'created_at' => $payment->created_at,
-            'updated_at' => $payment->updated_at,
-            'readable_created_at' => $payment->created_at->diffForHumans(),
-            'readable_updated_at' => $payment->updated_at->diffForHumans(),
-            // 'deleted_at' => $payment->deleted_at,
-        ], $response);
+            'updated_at' => $payment->updated_at
+        ];
     }
 }

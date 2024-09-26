@@ -82,8 +82,8 @@ return [
         |
         */
         'throttle' => [
-            'enabled' => env('GLOBAL_API_RATE_LIMIT_ENABLED', true),
-            'attempts' => env('GLOBAL_API_RATE_LIMIT_ATTEMPTS_PER_MIN', '30'),
+            'enabled' => env('GLOBAL_API_RATE_LIMIT_ENABLED', false),
+            'attempts' => env('GLOBAL_API_RATE_LIMIT_ATTEMPTS_PER_MIN', '60'),
             'expires' => env('GLOBAL_API_RATE_LIMIT_EXPIRES_IN_MIN', '1'),
         ],
     ],

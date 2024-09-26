@@ -10,8 +10,8 @@ return new class() extends Migration {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
             $table->foreignId("student_id")->constrained();
-            $table->decimal("value", 10, 2);
-            $table->enum("type_payment", ["On Sight", "Installment"]);            
+            $table->decimal("amount", 10, 2);
+            $table->foreignId("payment_way_id")->constrained();
             $table->timestamps();
         });
     }

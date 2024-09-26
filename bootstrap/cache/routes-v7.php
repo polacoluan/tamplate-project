@@ -24,7 +24,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jzMuhlQ9NwLn5oRQ',
+            '_route' => 'generated::6HuhzUDqU96gnyX6',
           ),
           1 => 'apiato.test',
           2 => 
@@ -43,7 +43,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::uBr6wW7pHV4Tgby2',
+            '_route' => 'generated::fM2wprig2Gi4Q2EU',
           ),
           1 => 'apiato.test',
           2 => 
@@ -62,7 +62,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::98KLDGmntMElXux6',
+            '_route' => 'generated::pCzSGc3yoiBhGqfg',
           ),
           1 => 'apiato.test',
           2 => 
@@ -231,7 +231,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::soDlLVLsDc6ptd9n',
+            '_route' => 'generated::PjyXFQWmfxqqh9Ej',
           ),
           1 => 'apiato.test',
           2 => 
@@ -250,7 +250,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::3THMyG5KhLBuUhUO',
+            '_route' => 'generated::Uw079Kq9ZQ7bWu9c',
           ),
           1 => 'apiato.test',
           2 => 
@@ -269,7 +269,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::C6N4kb8QFWzBbxby',
+            '_route' => 'generated::GVTfQyjFaWgZwwO5',
           ),
           1 => 'apiato.test',
           2 => 
@@ -288,7 +288,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::AVnUNypGI38WMQeb',
+            '_route' => 'generated::WnvGxzhPQxdtitdc',
           ),
           1 => 'apiato.test',
           2 => 
@@ -307,7 +307,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::FOAk9OSsmj3IcTJz',
+            '_route' => 'generated::cpPjHcw07BsdnAmk',
           ),
           1 => 'apiato.test',
           2 => 
@@ -344,7 +344,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::IaWGxZyuMLl0E84g',
+            '_route' => 'generated::6yWgPnETBb0oOSY9',
           ),
           1 => 'apiato.test',
           2 => 
@@ -419,7 +419,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::j4SvzJ8rmdnZpCsF',
+            '_route' => 'generated::AQ57BIzW0aQ092FH',
           ),
           1 => 'apiato.test',
           2 => 
@@ -435,7 +435,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::w9Pg4AWocY3hTn6E',
+            '_route' => 'generated::6jvECPqhMW2Re4t4',
           ),
           1 => 'apiato.test',
           2 => 
@@ -455,7 +455,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::CQiLuQRJNbTBKBY8',
+            '_route' => 'generated::gQ06ENTl3wqgn0QS',
           ),
           1 => 'apiato.test',
           2 => 
@@ -495,7 +495,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::2pJAlgUwFw6o2PSA',
+            '_route' => 'generated::0oKyklSdxhqkHMWe',
           ),
           1 => 'apiato.test',
           2 => 
@@ -515,7 +515,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::EiIEJvtv38ZX2Yzc',
+            '_route' => 'generated::V9zLa9pWZP1xb9nc',
           ),
           1 => 'apiato.test',
           2 => 
@@ -535,7 +535,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Vt4NumHcOV3P9IJq',
+            '_route' => 'generated::r2543BN6w50V4eVs',
           ),
           1 => 'apiato.test',
           2 => 
@@ -551,7 +551,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::MifjX6z4rHm2zotX',
+            '_route' => 'generated::ZYrdtKKbzNytpggL',
           ),
           1 => 'apiato.test',
           2 => 
@@ -571,7 +571,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Yv7rTkptC5daQQgx',
+            '_route' => 'generated::fMO3FqhqtnyeUSRV',
           ),
           1 => 'apiato.test',
           2 => 
@@ -587,7 +587,43 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Vg8i6PP8atbqF8QZ',
+            '_route' => 'generated::Cg3RVoxPAgxzbkB1',
+          ),
+          1 => 'apiato.test',
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/v1/payment-ways' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::GU2DdivXMbGPuhqG',
+          ),
+          1 => 'apiato.test',
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::xOuO2OwsERuMAO1Z',
           ),
           1 => 'apiato.test',
           2 => 
@@ -607,7 +643,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::7GASdwyTuONnPzV6',
+            '_route' => 'generated::lMDb1zz2OBy8iiIN',
           ),
           1 => 'apiato.test',
           2 => 
@@ -623,7 +659,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::OkQXVWK9FWM8d2le',
+            '_route' => 'generated::kEoLaQEOPZWc4g43',
           ),
           1 => 'apiato.test',
           2 => 
@@ -817,7 +853,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|(?i:apiato\\.test)\\.(?|/v1/(?|oauth/(?|tokens/([^/]++)(*:60)|clients/([^/]++)(?|(*:86))|personal\\-access\\-tokens/([^/]++)(*:127))|email/verify/([^/]++)/([^/]++)(*:166)|users/([^/]++)(?|/(?|roles(?|(*:203))|p(?|ermissions(?|(*:229))|assword(*:245)))|(*:255))|roles/([^/]++)(?|(*:281)|/permissions(?|(*:304)))|p(?|ermissions/([^/]++)(*:337)|ayment/([^/]++)(?|(*:363)))|installment/([^/]++)(?|(*:396))|student/([^/]++)(?|(*:424))))|(?:(?:[^./]*+\\.)++)(?|/_debugbar/c(?|lockwork/([^/]++)(*:489)|ache/([^/]++)(?:/([^/]++))?(*:524))))/?$}sDu',
+      0 => '{^(?|(?i:apiato\\.test)\\.(?|/v1/(?|oauth/(?|tokens/([^/]++)(*:60)|clients/([^/]++)(?|(*:86))|personal\\-access\\-tokens/([^/]++)(*:127))|email/verify/([^/]++)/([^/]++)(*:166)|users/([^/]++)(?|/(?|roles(?|(*:203))|p(?|ermissions(?|(*:229))|assword(*:245)))|(*:255))|roles/([^/]++)(?|(*:281)|/permissions(?|(*:304)))|p(?|ermissions/([^/]++)(*:337)|ayment(?|/([^/]++)(?|(*:366))|\\-ways/([^/]++)(?|(*:393))))|installment/([^/]++)(?|(*:427))|student/([^/]++)(?|(*:455))))|(?:(?:[^./]*+\\.)++)(?|/_debugbar/c(?|lockwork/([^/]++)(*:520)|ache/([^/]++)(?:/([^/]++))?(*:555))))/?$}sDu',
     ),
     3 => 
     array (
@@ -935,7 +971,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::0XE2LKWhDuOJq5EM',
+            '_route' => 'generated::BvHdh3ZOl6qxTNi7',
           ),
           1 => 
           array (
@@ -954,7 +990,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::SiCl0GcAAfxxMTqF',
+            '_route' => 'generated::8qQxQe1seCnHljgv',
           ),
           1 => 
           array (
@@ -974,7 +1010,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::yCnOexOLkZRS1yky',
+            '_route' => 'generated::iSu0dfhkdaKQO6mx',
           ),
           1 => 
           array (
@@ -993,7 +1029,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::q6PPKjpFvU8hZcJI',
+            '_route' => 'generated::xgF1JJciPGP6ySR8',
           ),
           1 => 
           array (
@@ -1015,7 +1051,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::krZ8AS1Q2Qf3OdOV',
+            '_route' => 'generated::oImdOYr2QXDfU69C',
           ),
           1 => 
           array (
@@ -1034,7 +1070,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ngMdlDPMSaviJI67',
+            '_route' => 'generated::pod8DirdvMqMhrzz',
           ),
           1 => 
           array (
@@ -1054,7 +1090,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::NPd4Hzf4HuRAnHja',
+            '_route' => 'generated::Ogel0F9TBqoVDugo',
           ),
           1 => 
           array (
@@ -1076,7 +1112,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::zWxeCiP9DM70WBey',
+            '_route' => 'generated::trDDnJsj0lFK6hMi',
           ),
           1 => 
           array (
@@ -1098,7 +1134,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::qt1UpKNRKiJqWffm',
+            '_route' => 'generated::SaHZcoEcPiKwFbe9',
           ),
           1 => 
           array (
@@ -1117,7 +1153,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::OyEEpLFYB5LHucPP',
+            '_route' => 'generated::bi4mhjcVslbrGosm',
           ),
           1 => 
           array (
@@ -1137,7 +1173,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::3ftSJklYMXbGKtg9',
+            '_route' => 'generated::gkFjMv0ga7m9i9Q1',
           ),
           1 => 
           array (
@@ -1159,7 +1195,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jM1AxD9nAR6L10CA',
+            '_route' => 'generated::T22elZIUtdQ2ILXz',
           ),
           1 => 
           array (
@@ -1178,7 +1214,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::FVnrRzVE2RHhIIm1',
+            '_route' => 'generated::2sl1JjUtfBCxucsS',
           ),
           1 => 
           array (
@@ -1201,7 +1237,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::oUq1EkcQWHYGYmc2',
+            '_route' => 'generated::iws34KJKxRcAhYeG',
           ),
           1 => 
           array (
@@ -1220,7 +1256,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::G30V5YN4utpq0pDt',
+            '_route' => 'generated::gzIzasdHXlY7Tsn0',
           ),
           1 => 
           array (
@@ -1240,7 +1276,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::o0BhxKc8j3IHkR0l',
+            '_route' => 'generated::rUePbc498DrlSRn4',
           ),
           1 => 
           array (
@@ -1259,7 +1295,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::gJEYpH8DjMgcxUAv',
+            '_route' => 'generated::EvIu0YorigTwlhxD',
           ),
           1 => 
           array (
@@ -1281,7 +1317,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::t5XC2WKJY54BkPb0',
+            '_route' => 'generated::T6ho6LWDnSuYjH03',
           ),
           1 => 
           array (
@@ -1298,13 +1334,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      363 => 
+      366 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::zMNfJv5xEh5y71Uh',
+            '_route' => 'generated::DiGhAnFgppW5W5Gm',
           ),
           1 => 
           array (
@@ -1323,7 +1359,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::JGFUPxaGCopyncgp',
+            '_route' => 'generated::9NiCWn0GivoXKl7m',
           ),
           1 => 
           array (
@@ -1343,7 +1379,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::GXFWNnRnxvdA56aw',
+            '_route' => 'generated::Non8my48UXetCz0G',
           ),
           1 => 
           array (
@@ -1359,13 +1395,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      396 => 
+      393 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::2mqJl9g4YjozwA8d',
+            '_route' => 'generated::9PPnJj1Yf9SDXH3w',
           ),
           1 => 
           array (
@@ -1384,7 +1420,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::66pi4r4NnstnLdvh',
+            '_route' => 'generated::y701dJ5IdByGoeEY',
           ),
           1 => 
           array (
@@ -1404,7 +1440,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::t7KmjyO86cIaA527',
+            '_route' => 'generated::HlU95QlhzgrQtXg6',
           ),
           1 => 
           array (
@@ -1420,13 +1456,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      424 => 
+      427 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::mzG5IflON6phgSuQ',
+            '_route' => 'generated::qersUmZSLK84G5Qu',
           ),
           1 => 
           array (
@@ -1445,7 +1481,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::3YPgeccI89J0EeFq',
+            '_route' => 'generated::LGq2jySwa2MRtlcg',
           ),
           1 => 
           array (
@@ -1465,7 +1501,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::F8ANYDeHblWcNQMo',
+            '_route' => 'generated::hLCZ0RjqMLDizlkT',
           ),
           1 => 
           array (
@@ -1481,7 +1517,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      489 => 
+      455 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::JRZpOh5D5jYaclQE',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::Pkyc19z3edJ3xw4x',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::T37sUVXDRlS26hyT',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'PATCH' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      520 => 
       array (
         0 => 
         array (
@@ -1504,7 +1601,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      524 => 
+      555 => 
       array (
         0 => 
         array (
@@ -1543,7 +1640,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::jzMuhlQ9NwLn5oRQ' => 
+    'generated::6HuhzUDqU96gnyX6' => 
     array (
       'methods' => 
       array (
@@ -1555,7 +1652,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\ForgotPasswordController@__invoke',
@@ -1565,7 +1661,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::jzMuhlQ9NwLn5oRQ',
+        'as' => 'generated::6HuhzUDqU96gnyX6',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1581,7 +1677,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::uBr6wW7pHV4Tgby2' => 
+    'generated::fM2wprig2Gi4Q2EU' => 
     array (
       'methods' => 
       array (
@@ -1593,7 +1689,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\LoginProxyForWebClientController@__invoke',
@@ -1603,7 +1698,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::uBr6wW7pHV4Tgby2',
+        'as' => 'generated::fM2wprig2Gi4Q2EU',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1619,7 +1714,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::98KLDGmntMElXux6' => 
+    'generated::pCzSGc3yoiBhGqfg' => 
     array (
       'methods' => 
       array (
@@ -1631,8 +1726,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\LogoutController@__invoke',
@@ -1642,7 +1736,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::98KLDGmntMElXux6',
+        'as' => 'generated::pCzSGc3yoiBhGqfg',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1670,8 +1764,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'throttle',
+          1 => 'throttle',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\AccessTokenController@issueToken',
@@ -1709,9 +1802,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\TransientTokenController@refresh',
@@ -1750,9 +1842,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\AuthorizedAccessTokenController@forUser',
@@ -1790,9 +1881,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\AuthorizedAccessTokenController@destroy',
@@ -1831,9 +1921,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\ClientController@forUser',
@@ -1871,9 +1960,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\ClientController@store',
@@ -1911,9 +1999,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\ClientController@update',
@@ -1951,9 +2038,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\ClientController@destroy',
@@ -1992,9 +2078,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\ScopeController@all',
@@ -2033,9 +2118,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\PersonalAccessTokenController@forUser',
@@ -2073,9 +2157,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\PersonalAccessTokenController@store',
@@ -2113,9 +2196,8 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'web',
-          3 => 'auth:api',
+          1 => 'web',
+          2 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'Laravel\\Passport\\Http\\Controllers\\PersonalAccessTokenController@destroy',
@@ -2141,7 +2223,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::soDlLVLsDc6ptd9n' => 
+    'generated::PjyXFQWmfxqqh9Ej' => 
     array (
       'methods' => 
       array (
@@ -2153,7 +2235,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\RefreshProxyForWebClientController@__invoke',
@@ -2163,7 +2244,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::soDlLVLsDc6ptd9n',
+        'as' => 'generated::PjyXFQWmfxqqh9Ej',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2179,7 +2260,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::3THMyG5KhLBuUhUO' => 
+    'generated::Uw079Kq9ZQ7bWu9c' => 
     array (
       'methods' => 
       array (
@@ -2191,7 +2272,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\RegisterUserController@__invoke',
@@ -2201,7 +2281,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::3THMyG5KhLBuUhUO',
+        'as' => 'generated::Uw079Kq9ZQ7bWu9c',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2217,7 +2297,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::C6N4kb8QFWzBbxby' => 
+    'generated::GVTfQyjFaWgZwwO5' => 
     array (
       'methods' => 
       array (
@@ -2229,7 +2309,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\ResetPasswordController@__invoke',
@@ -2239,7 +2318,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::C6N4kb8QFWzBbxby',
+        'as' => 'generated::GVTfQyjFaWgZwwO5',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2255,7 +2334,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::AVnUNypGI38WMQeb' => 
+    'generated::WnvGxzhPQxdtitdc' => 
     array (
       'methods' => 
       array (
@@ -2267,8 +2346,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\SendVerificationEmailController@__invoke',
@@ -2278,7 +2356,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::AVnUNypGI38WMQeb',
+        'as' => 'generated::WnvGxzhPQxdtitdc',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2306,8 +2384,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'signed',
+          1 => 'signed',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\VerifyEmailController@__invoke',
@@ -2333,7 +2410,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::FOAk9OSsmj3IcTJz' => 
+    'generated::cpPjHcw07BsdnAmk' => 
     array (
       'methods' => 
       array (
@@ -2346,7 +2423,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\WelcomeController@unversioned',
@@ -2356,7 +2432,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::FOAk9OSsmj3IcTJz',
+        'as' => 'generated::cpPjHcw07BsdnAmk',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2372,7 +2448,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::IaWGxZyuMLl0E84g' => 
+    'generated::6yWgPnETBb0oOSY9' => 
     array (
       'methods' => 
       array (
@@ -2385,7 +2461,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authentication\\UI\\API\\Controllers\\WelcomeController@versioned',
@@ -2395,7 +2470,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::IaWGxZyuMLl0E84g',
+        'as' => 'generated::6yWgPnETBb0oOSY9',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2558,7 +2633,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::0XE2LKWhDuOJq5EM' => 
+    'generated::BvHdh3ZOl6qxTNi7' => 
     array (
       'methods' => 
       array (
@@ -2570,8 +2645,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\AssignRolesToUserController@__invoke',
@@ -2581,7 +2655,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::0XE2LKWhDuOJq5EM',
+        'as' => 'generated::BvHdh3ZOl6qxTNi7',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2597,7 +2671,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::j4SvzJ8rmdnZpCsF' => 
+    'generated::AQ57BIzW0aQ092FH' => 
     array (
       'methods' => 
       array (
@@ -2609,8 +2683,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\CreateRoleController@__invoke',
@@ -2620,7 +2693,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::j4SvzJ8rmdnZpCsF',
+        'as' => 'generated::AQ57BIzW0aQ092FH',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2636,7 +2709,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::jM1AxD9nAR6L10CA' => 
+    'generated::T22elZIUtdQ2ILXz' => 
     array (
       'methods' => 
       array (
@@ -2648,8 +2721,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\DeleteRoleController@__invoke',
@@ -2659,7 +2731,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::jM1AxD9nAR6L10CA',
+        'as' => 'generated::T22elZIUtdQ2ILXz',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2675,7 +2747,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::t5XC2WKJY54BkPb0' => 
+    'generated::T6ho6LWDnSuYjH03' => 
     array (
       'methods' => 
       array (
@@ -2688,8 +2760,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\FindPermissionByIdController@__invoke',
@@ -2699,7 +2770,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::t5XC2WKJY54BkPb0',
+        'as' => 'generated::T6ho6LWDnSuYjH03',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2715,7 +2786,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::FVnrRzVE2RHhIIm1' => 
+    'generated::2sl1JjUtfBCxucsS' => 
     array (
       'methods' => 
       array (
@@ -2728,8 +2799,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\FindRoleByIdController@__invoke',
@@ -2739,7 +2809,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::FVnrRzVE2RHhIIm1',
+        'as' => 'generated::2sl1JjUtfBCxucsS',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2755,7 +2825,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::oUq1EkcQWHYGYmc2' => 
+    'generated::iws34KJKxRcAhYeG' => 
     array (
       'methods' => 
       array (
@@ -2767,8 +2837,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\GivePermissionsToRoleController@__invoke',
@@ -2778,7 +2847,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::oUq1EkcQWHYGYmc2',
+        'as' => 'generated::iws34KJKxRcAhYeG',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2794,7 +2863,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::krZ8AS1Q2Qf3OdOV' => 
+    'generated::oImdOYr2QXDfU69C' => 
     array (
       'methods' => 
       array (
@@ -2806,8 +2875,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\GivePermissionsToUserController@__invoke',
@@ -2817,7 +2885,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::krZ8AS1Q2Qf3OdOV',
+        'as' => 'generated::oImdOYr2QXDfU69C',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2833,7 +2901,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::CQiLuQRJNbTBKBY8' => 
+    'generated::gQ06ENTl3wqgn0QS' => 
     array (
       'methods' => 
       array (
@@ -2846,8 +2914,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\ListPermissionsController@__invoke',
@@ -2857,7 +2924,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::CQiLuQRJNbTBKBY8',
+        'as' => 'generated::gQ06ENTl3wqgn0QS',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2873,7 +2940,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::G30V5YN4utpq0pDt' => 
+    'generated::gzIzasdHXlY7Tsn0' => 
     array (
       'methods' => 
       array (
@@ -2886,8 +2953,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\ListRolePermissionsController@__invoke',
@@ -2897,7 +2963,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::G30V5YN4utpq0pDt',
+        'as' => 'generated::gzIzasdHXlY7Tsn0',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2913,7 +2979,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::w9Pg4AWocY3hTn6E' => 
+    'generated::6jvECPqhMW2Re4t4' => 
     array (
       'methods' => 
       array (
@@ -2926,8 +2992,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\ListRolesController@__invoke',
@@ -2937,7 +3002,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::w9Pg4AWocY3hTn6E',
+        'as' => 'generated::6jvECPqhMW2Re4t4',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2953,7 +3018,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ngMdlDPMSaviJI67' => 
+    'generated::pod8DirdvMqMhrzz' => 
     array (
       'methods' => 
       array (
@@ -2966,8 +3031,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\ListUserPermissionsController@__invoke',
@@ -2977,7 +3041,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::ngMdlDPMSaviJI67',
+        'as' => 'generated::pod8DirdvMqMhrzz',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2993,7 +3057,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::SiCl0GcAAfxxMTqF' => 
+    'generated::8qQxQe1seCnHljgv' => 
     array (
       'methods' => 
       array (
@@ -3006,8 +3070,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\ListUserRolesController@__invoke',
@@ -3017,7 +3080,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::SiCl0GcAAfxxMTqF',
+        'as' => 'generated::8qQxQe1seCnHljgv',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3033,7 +3096,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::yCnOexOLkZRS1yky' => 
+    'generated::iSu0dfhkdaKQO6mx' => 
     array (
       'methods' => 
       array (
@@ -3045,8 +3108,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\RemoveUserRolesController@__invoke',
@@ -3056,7 +3118,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::yCnOexOLkZRS1yky',
+        'as' => 'generated::iSu0dfhkdaKQO6mx',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3072,7 +3134,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::o0BhxKc8j3IHkR0l' => 
+    'generated::rUePbc498DrlSRn4' => 
     array (
       'methods' => 
       array (
@@ -3084,8 +3146,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\RevokeRolePermissionsController@__invoke',
@@ -3095,7 +3156,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::o0BhxKc8j3IHkR0l',
+        'as' => 'generated::rUePbc498DrlSRn4',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3111,7 +3172,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::NPd4Hzf4HuRAnHja' => 
+    'generated::Ogel0F9TBqoVDugo' => 
     array (
       'methods' => 
       array (
@@ -3123,8 +3184,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\RevokeUserPermissionsController@__invoke',
@@ -3134,7 +3194,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::NPd4Hzf4HuRAnHja',
+        'as' => 'generated::Ogel0F9TBqoVDugo',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3150,7 +3210,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::gJEYpH8DjMgcxUAv' => 
+    'generated::EvIu0YorigTwlhxD' => 
     array (
       'methods' => 
       array (
@@ -3162,8 +3222,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\SyncRolePermissionsController@__invoke',
@@ -3173,7 +3232,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::gJEYpH8DjMgcxUAv',
+        'as' => 'generated::EvIu0YorigTwlhxD',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3189,7 +3248,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::q6PPKjpFvU8hZcJI' => 
+    'generated::xgF1JJciPGP6ySR8' => 
     array (
       'methods' => 
       array (
@@ -3201,8 +3260,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\Authorization\\UI\\API\\Controllers\\SyncUserRolesController@__invoke',
@@ -3212,7 +3270,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::q6PPKjpFvU8hZcJI',
+        'as' => 'generated::xgF1JJciPGP6ySR8',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3265,7 +3323,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::qt1UpKNRKiJqWffm' => 
+    'generated::SaHZcoEcPiKwFbe9' => 
     array (
       'methods' => 
       array (
@@ -3277,8 +3335,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\User\\UI\\API\\Controllers\\DeleteUserController@__invoke',
@@ -3288,7 +3345,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::qt1UpKNRKiJqWffm',
+        'as' => 'generated::SaHZcoEcPiKwFbe9',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3304,7 +3361,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::OyEEpLFYB5LHucPP' => 
+    'generated::bi4mhjcVslbrGosm' => 
     array (
       'methods' => 
       array (
@@ -3317,8 +3374,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\User\\UI\\API\\Controllers\\FindUserByIdController@__invoke',
@@ -3328,7 +3384,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::OyEEpLFYB5LHucPP',
+        'as' => 'generated::bi4mhjcVslbrGosm',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3344,7 +3400,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::2pJAlgUwFw6o2PSA' => 
+    'generated::0oKyklSdxhqkHMWe' => 
     array (
       'methods' => 
       array (
@@ -3357,8 +3413,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\User\\UI\\API\\Controllers\\GetUserProfileController@__invoke',
@@ -3368,7 +3423,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::2pJAlgUwFw6o2PSA',
+        'as' => 'generated::0oKyklSdxhqkHMWe',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3384,7 +3439,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::EiIEJvtv38ZX2Yzc' => 
+    'generated::V9zLa9pWZP1xb9nc' => 
     array (
       'methods' => 
       array (
@@ -3397,8 +3452,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\User\\UI\\API\\Controllers\\ListUsersController@__invoke',
@@ -3408,7 +3462,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::EiIEJvtv38ZX2Yzc',
+        'as' => 'generated::V9zLa9pWZP1xb9nc',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3424,7 +3478,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::zWxeCiP9DM70WBey' => 
+    'generated::trDDnJsj0lFK6hMi' => 
     array (
       'methods' => 
       array (
@@ -3436,8 +3490,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\User\\UI\\API\\Controllers\\UpdatePasswordController@__invoke',
@@ -3447,7 +3500,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::zWxeCiP9DM70WBey',
+        'as' => 'generated::trDDnJsj0lFK6hMi',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3463,7 +3516,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::3ftSJklYMXbGKtg9' => 
+    'generated::gkFjMv0ga7m9i9Q1' => 
     array (
       'methods' => 
       array (
@@ -3475,8 +3528,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
-          2 => 'auth:api',
+          1 => 'auth:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\AppSection\\User\\UI\\API\\Controllers\\UpdateUserController@__invoke',
@@ -3486,7 +3538,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::3ftSJklYMXbGKtg9',
+        'as' => 'generated::gkFjMv0ga7m9i9Q1',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3502,7 +3554,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Vt4NumHcOV3P9IJq' => 
+    'generated::r2543BN6w50V4eVs' => 
     array (
       'methods' => 
       array (
@@ -3514,7 +3566,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Installment\\UI\\API\\Controllers\\CreateInstallmentController@__invoke',
@@ -3524,7 +3575,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Vt4NumHcOV3P9IJq',
+        'as' => 'generated::r2543BN6w50V4eVs',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3540,7 +3591,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::2mqJl9g4YjozwA8d' => 
+    'generated::qersUmZSLK84G5Qu' => 
     array (
       'methods' => 
       array (
@@ -3552,7 +3603,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Installment\\UI\\API\\Controllers\\DeleteInstallmentController@__invoke',
@@ -3562,7 +3612,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::2mqJl9g4YjozwA8d',
+        'as' => 'generated::qersUmZSLK84G5Qu',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3578,7 +3628,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::66pi4r4NnstnLdvh' => 
+    'generated::LGq2jySwa2MRtlcg' => 
     array (
       'methods' => 
       array (
@@ -3591,7 +3641,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Installment\\UI\\API\\Controllers\\FindInstallmentByIdController@__invoke',
@@ -3601,7 +3650,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::66pi4r4NnstnLdvh',
+        'as' => 'generated::LGq2jySwa2MRtlcg',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3617,7 +3666,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::MifjX6z4rHm2zotX' => 
+    'generated::ZYrdtKKbzNytpggL' => 
     array (
       'methods' => 
       array (
@@ -3630,7 +3679,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Installment\\UI\\API\\Controllers\\ListInstallmentsController@__invoke',
@@ -3640,7 +3688,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::MifjX6z4rHm2zotX',
+        'as' => 'generated::ZYrdtKKbzNytpggL',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3656,7 +3704,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::t7KmjyO86cIaA527' => 
+    'generated::hLCZ0RjqMLDizlkT' => 
     array (
       'methods' => 
       array (
@@ -3668,7 +3716,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Installment\\UI\\API\\Controllers\\UpdateInstallmentController@__invoke',
@@ -3678,7 +3725,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::t7KmjyO86cIaA527',
+        'as' => 'generated::hLCZ0RjqMLDizlkT',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3694,7 +3741,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Yv7rTkptC5daQQgx' => 
+    'generated::fMO3FqhqtnyeUSRV' => 
     array (
       'methods' => 
       array (
@@ -3706,7 +3753,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Payment\\UI\\API\\Controllers\\CreatePaymentController@__invoke',
@@ -3716,7 +3762,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Yv7rTkptC5daQQgx',
+        'as' => 'generated::fMO3FqhqtnyeUSRV',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3732,7 +3778,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::zMNfJv5xEh5y71Uh' => 
+    'generated::DiGhAnFgppW5W5Gm' => 
     array (
       'methods' => 
       array (
@@ -3744,7 +3790,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Payment\\UI\\API\\Controllers\\DeletePaymentController@__invoke',
@@ -3754,7 +3799,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::zMNfJv5xEh5y71Uh',
+        'as' => 'generated::DiGhAnFgppW5W5Gm',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3770,7 +3815,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::JGFUPxaGCopyncgp' => 
+    'generated::9NiCWn0GivoXKl7m' => 
     array (
       'methods' => 
       array (
@@ -3783,7 +3828,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Payment\\UI\\API\\Controllers\\FindPaymentByIdController@__invoke',
@@ -3793,7 +3837,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::JGFUPxaGCopyncgp',
+        'as' => 'generated::9NiCWn0GivoXKl7m',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3809,7 +3853,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Vg8i6PP8atbqF8QZ' => 
+    'generated::Cg3RVoxPAgxzbkB1' => 
     array (
       'methods' => 
       array (
@@ -3822,7 +3866,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Payment\\UI\\API\\Controllers\\ListPaymentsController@__invoke',
@@ -3832,7 +3875,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Vg8i6PP8atbqF8QZ',
+        'as' => 'generated::Cg3RVoxPAgxzbkB1',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3848,7 +3891,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::GXFWNnRnxvdA56aw' => 
+    'generated::Non8my48UXetCz0G' => 
     array (
       'methods' => 
       array (
@@ -3860,7 +3903,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Payment\\UI\\API\\Controllers\\UpdatePaymentController@__invoke',
@@ -3870,7 +3912,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::GXFWNnRnxvdA56aw',
+        'as' => 'generated::Non8my48UXetCz0G',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3886,7 +3928,194 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::7GASdwyTuONnPzV6' => 
+    'generated::GU2DdivXMbGPuhqG' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'v1/payment-ways',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'domain' => 'http://apiato.test',
+        'uses' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\CreatePaymentWayController@__invoke',
+        'controller' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\CreatePaymentWayController',
+        'namespace' => NULL,
+        'prefix' => '/v1',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::GU2DdivXMbGPuhqG',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::9PPnJj1Yf9SDXH3w' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'v1/payment-ways/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'domain' => 'http://apiato.test',
+        'uses' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\DeletePaymentWayController@__invoke',
+        'controller' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\DeletePaymentWayController',
+        'namespace' => NULL,
+        'prefix' => '/v1',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::9PPnJj1Yf9SDXH3w',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::y701dJ5IdByGoeEY' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'v1/payment-ways/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'domain' => 'http://apiato.test',
+        'uses' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\FindPaymentWayByIdController@__invoke',
+        'controller' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\FindPaymentWayByIdController',
+        'namespace' => NULL,
+        'prefix' => '/v1',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::y701dJ5IdByGoeEY',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::xOuO2OwsERuMAO1Z' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'v1/payment-ways',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'domain' => 'http://apiato.test',
+        'uses' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\ListPaymentWaysController@__invoke',
+        'controller' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\ListPaymentWaysController',
+        'namespace' => NULL,
+        'prefix' => '/v1',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::xOuO2OwsERuMAO1Z',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::HlU95QlhzgrQtXg6' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PATCH',
+      ),
+      'uri' => 'v1/payment-ways/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'api',
+        ),
+        'domain' => 'http://apiato.test',
+        'uses' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\UpdatePaymentWayController@__invoke',
+        'controller' => 'App\\Containers\\UniSection\\PaymentWay\\UI\\API\\Controllers\\UpdatePaymentWayController',
+        'namespace' => NULL,
+        'prefix' => '/v1',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::HlU95QlhzgrQtXg6',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::lMDb1zz2OBy8iiIN' => 
     array (
       'methods' => 
       array (
@@ -3898,7 +4127,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Student\\UI\\API\\Controllers\\CreateStudentController@__invoke',
@@ -3908,7 +4136,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::7GASdwyTuONnPzV6',
+        'as' => 'generated::lMDb1zz2OBy8iiIN',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3924,7 +4152,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::mzG5IflON6phgSuQ' => 
+    'generated::JRZpOh5D5jYaclQE' => 
     array (
       'methods' => 
       array (
@@ -3936,7 +4164,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Student\\UI\\API\\Controllers\\DeleteStudentController@__invoke',
@@ -3946,7 +4173,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::mzG5IflON6phgSuQ',
+        'as' => 'generated::JRZpOh5D5jYaclQE',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3962,7 +4189,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::3YPgeccI89J0EeFq' => 
+    'generated::Pkyc19z3edJ3xw4x' => 
     array (
       'methods' => 
       array (
@@ -3975,7 +4202,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Student\\UI\\API\\Controllers\\FindStudentByIdController@__invoke',
@@ -3985,7 +4211,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::3YPgeccI89J0EeFq',
+        'as' => 'generated::Pkyc19z3edJ3xw4x',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4001,7 +4227,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::OkQXVWK9FWM8d2le' => 
+    'generated::kEoLaQEOPZWc4g43' => 
     array (
       'methods' => 
       array (
@@ -4014,7 +4240,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Student\\UI\\API\\Controllers\\ListStudentsController@__invoke',
@@ -4024,7 +4249,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::OkQXVWK9FWM8d2le',
+        'as' => 'generated::kEoLaQEOPZWc4g43',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4040,7 +4265,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::F8ANYDeHblWcNQMo' => 
+    'generated::T37sUVXDRlS26hyT' => 
     array (
       'methods' => 
       array (
@@ -4052,7 +4277,6 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'api',
-          1 => 'throttle:api',
         ),
         'domain' => 'http://apiato.test',
         'uses' => 'App\\Containers\\UniSection\\Student\\UI\\API\\Controllers\\UpdateStudentController@__invoke',
@@ -4062,7 +4286,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::F8ANYDeHblWcNQMo',
+        'as' => 'generated::T37sUVXDRlS26hyT',
       ),
       'fallback' => false,
       'defaults' => 

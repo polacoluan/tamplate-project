@@ -22,13 +22,14 @@ class InstallmentTransformer extends ParentTransformer
             'id' => $installment->getHashedKey(),
         ];
 
-        return $this->ifAdmin([
-            'real_id' => $installment->id,
+        return [
+            'id' => $installment->id,
+            'payment_id' => $installment->payment_id,
+            'installment' => $installment->installment,
+            'amount' => $installment->amount,
+            'payment_date' => $installment->payment_date,
             'created_at' => $installment->created_at,
-            'updated_at' => $installment->updated_at,
-            'readable_created_at' => $installment->created_at->diffForHumans(),
-            'readable_updated_at' => $installment->updated_at->diffForHumans(),
-            // 'deleted_at' => $installment->deleted_at,
-        ], $response);
+            'updated_at' => $installment->updated_at
+        ];
     }
 }

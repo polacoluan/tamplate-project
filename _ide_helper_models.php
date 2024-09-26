@@ -15,6 +15,13 @@ namespace App\Containers\AppSection\Authorization\Models{
 /**
  * App\Containers\AppSection\Authorization\Models\Permission
  *
+ * @property int $id
+ * @property string $name
+ * @property string $guard_name
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $display_name
+ * @property string|null $description
  * @property-read \App\Containers\AppSection\Authorization\Data\Collections\PermissionCollection<int, Permission> $permissions
  * @property-read int|null $permissions_count
  * @property-read \App\Containers\AppSection\Authorization\Data\Collections\RoleCollection<int, \App\Containers\AppSection\Authorization\Models\Role> $roles
@@ -29,6 +36,13 @@ namespace App\Containers\AppSection\Authorization\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Permission permission($permissions)
  * @method static \Illuminate\Database\Eloquent\Builder|Permission query()
  * @method static \Illuminate\Database\Eloquent\Builder|Permission role($roles, $guard = null)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereDisplayName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereGuardName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Permission whereUpdatedAt($value)
  */
 	class Permission extends \Eloquent implements \Apiato\Core\Contracts\HasResourceKey {}
 }
@@ -37,6 +51,13 @@ namespace App\Containers\AppSection\Authorization\Models{
 /**
  * App\Containers\AppSection\Authorization\Models\Role
  *
+ * @property int $id
+ * @property string $name
+ * @property string $guard_name
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $display_name
+ * @property string|null $description
  * @property-read \App\Containers\AppSection\Authorization\Data\Collections\PermissionCollection<int, \App\Containers\AppSection\Authorization\Models\Permission> $permissions
  * @property-read int|null $permissions_count
  * @property-read \App\Containers\AppSection\User\Data\Collections\UserCollection<int, \App\Containers\AppSection\User\Models\User> $users
@@ -48,6 +69,13 @@ namespace App\Containers\AppSection\Authorization\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Role newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Role permission($permissions)
  * @method static \Illuminate\Database\Eloquent\Builder|Role query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereDisplayName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereGuardName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Role whereUpdatedAt($value)
  */
 	class Role extends \Eloquent implements \Apiato\Core\Contracts\HasResourceKey {}
 }
@@ -56,11 +84,18 @@ namespace App\Containers\AppSection\User\Models{
 /**
  * App\Containers\AppSection\User\Models\User
  *
- * @property mixed $password
- * @property \App\Containers\AppSection\User\Enums\Gender $gender
+ * @property int $id
+ * @property string|null $name
+ * @property-read string|null $email
+ * @property \Carbon\CarbonImmutable|null $email_verified_at
+ * @property mixed|null $password
+ * @property \App\Containers\AppSection\User\Enums\Gender|null $gender
+ * @property \Carbon\CarbonImmutable|null $birth
+ * @property string|null $remember_token
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \Laravel\Passport\Client> $clients
  * @property-read int|null $clients_count
- * @property-read string|null $email
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection<int, \Illuminate\Notifications\DatabaseNotification> $notifications
  * @property-read int|null $notifications_count
  * @property-read \App\Containers\AppSection\Authorization\Data\Collections\PermissionCollection<int, \App\Containers\AppSection\Authorization\Models\Permission> $permissions
@@ -77,6 +112,16 @@ namespace App\Containers\AppSection\User\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|UserModel permission($permissions)
  * @method static \Illuminate\Database\Eloquent\Builder|User query()
  * @method static \Illuminate\Database\Eloquent\Builder|UserModel role($roles, $guard = null)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereBirth($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereEmailVerifiedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereGender($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User wherePassword($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
  */
 	class User extends \Eloquent implements \App\Ship\Contracts\MustVerifyEmail, \Illuminate\Contracts\Auth\MustVerifyEmail {}
 }
@@ -85,10 +130,24 @@ namespace App\Containers\UniSection\Installment\Models{
 /**
  * App\Containers\UniSection\Installment\Models\Installment
  *
+ * @property int $id
+ * @property int $payment_id
+ * @property int $installment
+ * @property string $amount
+ * @property string|null $payment_date
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \App\Containers\UniSection\Installment\Data\Factories\InstallmentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Installment newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Installment newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Installment query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment whereAmount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment whereInstallment($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment wherePaymentDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment wherePaymentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Installment whereUpdatedAt($value)
  */
 	class Installment extends \Eloquent {}
 }
@@ -97,12 +156,46 @@ namespace App\Containers\UniSection\Payment\Models{
 /**
  * App\Containers\UniSection\Payment\Models\Payment
  *
+ * @property int $id
+ * @property int $student_id
+ * @property string $amount
+ * @property int $payment_way_id
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \App\Containers\UniSection\Payment\Data\Factories\PaymentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Payment newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Payment newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Payment query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment whereAmount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment wherePaymentWayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment whereStudentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment whereUpdatedAt($value)
  */
 	class Payment extends \Eloquent {}
+}
+
+namespace App\Containers\UniSection\PaymentWay\Models{
+/**
+ * App\Containers\UniSection\PaymentWay\Models\PaymentWay
+ *
+ * @property int $id
+ * @property string $way
+ * @property int $installments
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \App\Containers\UniSection\PaymentWay\Data\Factories\PaymentWayFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay query()
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereInstallments($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereWay($value)
+ */
+	class PaymentWay extends \Eloquent {}
 }
 
 namespace App\Containers\UniSection\Student\Models{
