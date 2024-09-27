@@ -2,6 +2,8 @@
 
 namespace App\Containers\UniSection\Installment\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use App\Containers\UniSection\Payment\Models\Payment;
 use App\Ship\Parents\Models\Model as ParentModel;
 
 class Installment extends ParentModel
@@ -12,7 +14,7 @@ class Installment extends ParentModel
     protected $connection = "pgsql";
 
     protected $table = "installments";
-    
+
     protected string $resourceKey = 'Installment';
 
     protected $fillable = [
@@ -20,9 +22,19 @@ class Installment extends ParentModel
         "installment",
         "amount",
         "payment_date"
-    ] ;
+    ];
 
-    protected $hidden = [] ;
+    protected $hidden = [];
 
     protected $primaryKey = "id";
+
+    public function payment(): BelongsTo
+    {
+        return $this->belongsTo(Payment::class);
+    }
+
+    public function getStudentNameAttribute()
+    {
+        return $this->payment ? $this->payment->student->name : null;
+    }
 }

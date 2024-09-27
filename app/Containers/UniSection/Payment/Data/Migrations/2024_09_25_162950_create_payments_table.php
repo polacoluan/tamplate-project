@@ -11,7 +11,7 @@ return new class() extends Migration {
             $table->id();
             $table->foreignId("student_id")->constrained();
             $table->decimal("amount", 10, 2);
-            $table->foreignId("payment_way_id")->constrained();
+            $table->foreignId("payment_method_id")->constrained();
             $table->timestamps();
         });
     }

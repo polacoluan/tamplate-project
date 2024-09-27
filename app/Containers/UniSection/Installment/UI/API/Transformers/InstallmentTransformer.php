@@ -8,11 +8,11 @@ use App\Ship\Parents\Transformers\Transformer as ParentTransformer;
 class InstallmentTransformer extends ParentTransformer
 {
     protected array $defaultIncludes = [
-
+    
     ];
 
     protected array $availableIncludes = [
-
+        
     ];
 
     public function transform(Installment $installment): array
@@ -28,6 +28,7 @@ class InstallmentTransformer extends ParentTransformer
             'installment' => $installment->installment,
             'amount' => $installment->amount,
             'payment_date' => $installment->payment_date,
+            'student_name' => $installment->student_name,
             'created_at' => $installment->created_at,
             'updated_at' => $installment->updated_at
         ];

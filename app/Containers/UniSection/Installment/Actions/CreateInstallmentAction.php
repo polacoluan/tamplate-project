@@ -23,7 +23,10 @@ class CreateInstallmentAction extends ParentAction
     public function run(CreateInstallmentRequest $request): Installment
     {
         $data = $request->sanitizeInput([
-            // add your request data here
+            'payment_id',
+            'installment',
+            'amount',
+            'payment_date'
         ]);
 
         return $this->createInstallmentTask->run($data);

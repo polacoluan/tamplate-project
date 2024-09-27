@@ -2,6 +2,11 @@
 
 namespace App\Containers\UniSection\Payment\Models;
 
+use App\Containers\UniSection\Installment\Models\Installment;
+use App\Containers\UniSection\Student\Models\Student;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use App\Containers\UniSection\PaymentMethod\Models\PaymentMethod;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use App\Ship\Parents\Models\Model as ParentModel;
 
 class Payment extends ParentModel
@@ -18,10 +23,25 @@ class Payment extends ParentModel
     protected $fillable = [
         "student_id",
         "amount",
-        "payment_way_id"
+        "payment_method_id"
     ] ;
 
     protected $hidden = [] ;
 
     protected $primaryKey = "id";
+
+    public function paymentMethod(): BelongsTo
+    {
+        return $this->belongsTo(PaymentMethod::class);
+    }
+
+    public function installments(): HasMany
+    {
+        return $this->hasMany(Installment::class);
+    }
+
+    public function student(): BelongsTo
+    {
+        return $this->belongsTo(Student::class);
+    }
 }

@@ -2,7 +2,9 @@
 
 namespace App\Containers\UniSection\Student\Models;
 
+use App\Containers\UniSection\Payment\Models\Payment;
 use App\Ship\Parents\Models\Model as ParentModel;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Student extends ParentModel
 {
@@ -26,4 +28,9 @@ class Student extends ParentModel
     protected $hidden = [] ;
 
     protected $primaryKey = "id";
+
+    public function payments(): HasMany
+    {
+        return $this->hasMany(Payment::class);
+    }
 }

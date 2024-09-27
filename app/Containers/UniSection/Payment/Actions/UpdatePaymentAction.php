@@ -25,7 +25,9 @@ class UpdatePaymentAction extends ParentAction
     public function run(UpdatePaymentRequest $request): Payment
     {
         $data = $request->sanitizeInput([
-            // add your request data here
+            'student_id',
+            'amount',
+            'payment_method_id'
         ]);
 
         return $this->updatePaymentTask->run($data, $request->id);

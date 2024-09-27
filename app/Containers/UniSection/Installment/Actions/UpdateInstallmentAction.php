@@ -25,7 +25,10 @@ class UpdateInstallmentAction extends ParentAction
     public function run(UpdateInstallmentRequest $request): Installment
     {
         $data = $request->sanitizeInput([
-            // add your request data here
+            'payment_id',
+            'installment',
+            'amount',
+            'payment_date'
         ]);
 
         return $this->updateInstallmentTask->run($data, $request->id);

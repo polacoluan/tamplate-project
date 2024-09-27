@@ -159,7 +159,7 @@ namespace App\Containers\UniSection\Payment\Models{
  * @property int $id
  * @property int $student_id
  * @property string $amount
- * @property int $payment_way_id
+ * @property int $payment_method_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \App\Containers\UniSection\Payment\Data\Factories\PaymentFactory factory($count = null, $state = [])
@@ -169,33 +169,33 @@ namespace App\Containers\UniSection\Payment\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Payment whereAmount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Payment whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Payment whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Payment wherePaymentWayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Payment wherePaymentMethodId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Payment whereStudentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Payment whereUpdatedAt($value)
  */
 	class Payment extends \Eloquent {}
 }
 
-namespace App\Containers\UniSection\PaymentWay\Models{
+namespace App\Containers\UniSection\PaymentMethod\Models{
 /**
- * App\Containers\UniSection\PaymentWay\Models\PaymentWay
+ * App\Containers\UniSection\PaymentMethod\Models\PaymentMethod
  *
  * @property int $id
- * @property string $way
+ * @property string $method
  * @property int $installments
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @method static \App\Containers\UniSection\PaymentWay\Data\Factories\PaymentWayFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay query()
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereInstallments($value)
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|PaymentWay whereWay($value)
+ * @method static \App\Containers\UniSection\PaymentMethod\Data\Factories\PaymentMethodFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod query()
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod whereInstallments($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod whereMethod($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod whereUpdatedAt($value)
  */
-	class PaymentWay extends \Eloquent {}
+	class PaymentMethod extends \Eloquent {}
 }
 
 namespace App\Containers\UniSection\Student\Models{
