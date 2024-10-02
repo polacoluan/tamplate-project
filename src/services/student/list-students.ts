@@ -8,7 +8,7 @@ export async function listStudents() {
 
         return response.data.data;
     } catch (error) {
-
+        
         console.error(error);
     }
 }

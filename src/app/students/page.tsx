@@ -1,5 +1,5 @@
 import React from 'react';
-import StudentsTable from '@/components/students/students-table';
+import StudentsTable from '../../components/student/students-table';
 
 const StudentsPage = () => (
   <div className="container mx-auto">
