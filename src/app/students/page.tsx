@@ -66,7 +66,7 @@ const StudentsPage = () => {
           onClick={openAddModal}
           className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
         >
-          <i className="fa-solid fa-user-plus"></i> Adicionar Estudante
+          <i aria-hidden className="fa-solid fa-user-plus"></i> Adicionar Estudante
         </button>
         <table className="min-w-full">
           <StudentsTableHeader />

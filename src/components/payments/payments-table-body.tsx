@@ -31,13 +31,13 @@ const PaymentsTableBody: React.FC<PaymentTableBodyProps>  = ({payments, openEdit
                   onClick={() => openEditModal(payment)}
                   className="bg-blue-500 text-white px-4 py-2 rounded"
                 >
-                  <i className="fa-solid fa-pen"></i>
+                  <i aria-hidden className="fa-solid fa-pen"></i>
                 </button>
                 <button
                   onClick={() => handleDelete(payment.id)}
                   className="bg-red-500 text-white px-4 py-2 rounded ml-2"
                 >
-                  <i className="fa-solid fa-minus"></i>
+                  <i aria-hidden className="fa-solid fa-minus"></i>
                 </button>
               </td>
             </tr>

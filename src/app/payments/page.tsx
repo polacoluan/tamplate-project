@@ -56,10 +56,11 @@ const PaymentsPage = () => {
   };
 
   const mapPaymentTableToPayment = (paymentTable: PaymentTable): Payment => {
+    
     return {
       id: paymentTable.id,
-      student_id: paymentTable.student_id,
-      payment_method_id: paymentTable.payment_method_id,
+      student_id: paymentTable.student.data.id,
+      payment_method_id: paymentTable.paymentMethod.data.id,
       amount: parseFloat(paymentTable.amount),
     };
   };
@@ -76,7 +77,7 @@ const PaymentsPage = () => {
           onClick={openAddModal}
           className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
         >
-          <i className="fa-solid fa-plus"></i> Adicionar Pagamento
+          <i aria-hidden className="fa-solid fa-plus"></i> Adicionar Pagamento
         </button>
         <table className="min-w-full bg-white">
           <PaymentsTableHeader />

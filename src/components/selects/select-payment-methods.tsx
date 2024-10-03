@@ -2,19 +2,19 @@
 
 import React, { useEffect, useState } from 'react';
 import { listPaymentMethods } from '@/api/payment-methods/list-payment-methods';
+import { useFormContext } from 'react-hook-form';
 
 interface DataOption {
   id: number;
   method: string;
-  installments: number;
 }
 
 interface SelectComponentProps {
-  onSelect: (selectedValue: number | '') => void;
-  value: number;
+  payment_method_id: number | undefined;
 }
 
-const SelectPaymentMethods: React.FC<SelectComponentProps> = ({ onSelect, value }) => {
+const SelectPaymentMethods: React.FC<SelectComponentProps> = ({ payment_method_id }) => {
+  const { register } = useFormContext();
   const [options, setOptions] = useState<DataOption[]>([]);
 
   useEffect(() => {
@@ -26,20 +26,13 @@ const SelectPaymentMethods: React.FC<SelectComponentProps> = ({ onSelect, value 
     loadOptions();
   }, []);
 
-  const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedValue = Number(e.target.value);
-    onSelect(selectedValue);
-  };
-
   return (
     <div>
       <label htmlFor="select-payment-methods" className="block mb-2">Selecione a forma de pagamento:</label>
       <select
-        id="select-payment-methods"
-        name="payment_method_id"
-        value={value}
-        onChange={handleSelectChange}
         className="block w-full px-4 py-2 border rounded"
+        value={payment_method_id}
+        {...register("payment_method_id", { required: true })}
       >
         <option value="">Selecione</option>
         {options.map(option => (

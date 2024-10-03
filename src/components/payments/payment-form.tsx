@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import InputMask from 'react-input-mask';
+import React from 'react';
 import { createPayment } from '@/api/payments/create-payment';
 import { updatePayment } from '@/api/payments/update-payment';
 import { Payment } from '@/types/payment';
-import SelectStudents from "@/components/selects/select-students"
-import SelectPaymentMethods from "@/components/selects/select-payment-methods"
+import SelectStudents from "@/components/selects/select-students";
+import SelectPaymentMethods from "@/components/selects/select-payment-methods";
+import { useForm, SubmitHandler, FormProvider } from 'react-hook-form';
 
 interface PaymentFormProps {
     payment?: Payment;
@@ -14,88 +14,42 @@ interface PaymentFormProps {
 }
 
 const PaymentForm: React.FC<PaymentFormProps> = ({ payment, onSuccess }) => {
-
-    const [formData, setFormData] = useState<Payment>({
-        id: 0,
-        student_id: 0,
-        amount: 0,
-        payment_method_id: 0
-    });
-
-    useEffect(() => {
-        if (payment) {
-            setFormData(payment);
-        } else {
-            setFormData({
-                id: 0,
-                student_id: 0,
-                amount: 0,
-                payment_method_id: 0
-            });
-        }
-    }, [payment]);
-
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const { name, value } = event.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
-    };
-
-    const handleSubmit = async (event: React.FormEvent) => {
-        event.preventDefault();
+    const methods = useForm<Payment>()
+    const onSubmit: SubmitHandler<Payment> = async (data) => {
         try {
             if (payment) {
-                await updatePayment(payment.id, formData);
+                await updatePayment(payment.id, data);
             } else {
-                await createPayment(formData);
+                await createPayment(data);
             }
             onSuccess();
         } catch (error) {
             console.error('Falha ao enviar o formulário:', error);
         }
     };
-
-    const handleSelectPaymentMethod = (selectedValue: number | '') => {
-        setFormData((prevData) => ({
-            ...prevData,
-            payment_method_id: selectedValue as number,
-        }));
-    };
-
-    const handleSelectStudent = (selectedValue: number | '') => {
-        setFormData((prevData) => ({
-            ...prevData,
-            student_id: selectedValue as number,
-        }));
-    };
-
     return (
-        <form onSubmit={handleSubmit} className="space-y-4">
-            <SelectStudents value={formData.student_id} onSelect={handleSelectStudent} />
+        <FormProvider {...methods}>
 
-            <SelectPaymentMethods value={formData.payment_method_id} onSelect={handleSelectPaymentMethod} />
+            <form onSubmit={methods.handleSubmit(onSubmit)} className="space-y-4">
+                <SelectStudents student_id={payment?.student_id} />
+                <SelectPaymentMethods payment_method_id={payment?.payment_method_id} />
 
-            <label htmlFor="amount" className="block mb-2">Valor à pagar:</label>
-            <InputMask
-                id="amount"
-                mask="9999.99"
-                type="text"
-                name="amount"
-                placeholder="Valor"
-                value={formData.amount || ''}
-                onChange={handleChange}
-                className="block w-full px-4 py-2 border rounded"
-                required
-            />
-            <button
-                type="submit"
-                className="bg-blue-500 text-white px-4 py-2 rounded mt-4"
-            >
-                <i className="fa-solid fa-floppy-disk"></i> Salvar
-            </button>
-        </form>
+                <label htmlFor="amount" className="block mb-2">Valor à pagar:</label>
+                <input
+                    id="amount"
+                    type="text"
+                    placeholder="0000.00"
+                    className="block w-full px-4 py-2 border rounded"
+                    {...methods.register("amount", { required: true, maxLength: 14, value: payment?.amount })}
+                />
+                <button
+                    type="submit"
+                    className="bg-blue-500 text-white px-4 py-2 rounded mt-4"
+                >
+                    <i aria-hidden className="fa-solid fa-floppy-disk"></i> Salvar
+                </button>
+            </form>
+        </FormProvider>
     );
 };
 

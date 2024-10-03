@@ -23,13 +23,13 @@ const StudentsTableBody: React.FC<StudentsTableBodyProps>  = ({students, openEdi
             onClick={() => openEditModal(student)}
             className="bg-blue-500 text-white px-4 py-2 rounded"
           >
-            <i className="fa-solid fa-user-pen"></i>
+            <i aria-hidden className="fa-solid fa-user-pen"></i>
           </button>
           <button
             onClick={() => handleDelete(student.id)}
             className="bg-red-500 text-white px-4 py-2 rounded ml-2"
           >
-            <i className="fa-solid fa-user-minus"></i>
+            <i aria-hidden className="fa-solid fa-user-minus"></i>
           </button>
         </td>
       </tr>

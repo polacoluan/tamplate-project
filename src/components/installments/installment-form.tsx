@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Installment } from '@/types/installment';
 import { updateInstallment } from '@/api/installments/update-installment';
+import { useForm, SubmitHandler } from 'react-hook-form';
 
 interface InstallmentFormProps {
   installment?: Installment;
@@ -10,83 +11,43 @@ interface InstallmentFormProps {
 }
 
 const InstallmentForm: React.FC<InstallmentFormProps> = ({ installment, onSuccess }) => {
-  const [formData, setFormData] = useState<Installment>({
-    id: 0,
-    installment: 0,
-    amount: '0',
-    payment_date: '',
-    student_name: ''
-  });
-
-  useEffect(() => {
-    if (installment) {
-      setFormData(installment);
-    } else {
-      setFormData({
-        id: 0,
-        installment: 0,
-        amount: '0',
-        payment_date: '',
-        student_name: ''
-      });
-    }
-  }, [installment]);
-
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = async (event: React.FormEvent) => {
-    event.preventDefault();
+  const { register, handleSubmit } = useForm<Installment>()
+  const onSubmit: SubmitHandler<Installment> = async (data) => {
     try {
       if (installment) {
-        await updateInstallment(installment.id, formData);
-      }
-      onSuccess(); // Notify parent component
+        await updateInstallment(installment.id, data);
+      }    
+      onSuccess();
     } catch (error) {
       console.error('Falha ao enviar o formulário:', error);
     }
   };
-
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
       <label htmlFor="installment" className="block mb-2">Número da parcela:</label>
       <input
         id="installment"
         type="text"
-        name="installment"
         placeholder="Nome"
-        value={formData.installment || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("installment", { required: true, value: installment?.installment })}
       />
 
       <label htmlFor="amount" className="block mb-2">Valor da parcela:</label>
       <input
         id="amount"
         type="text"
-        name="amount"
         placeholder="Valor"
-        value={formData.amount || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("amount", { required: true, value: installment?.amount })}
       />
 
       <label htmlFor="payment_date" className="block mb-2">Data do Pagamento:</label>
       <input
         id="payment_date"
         type="datetime-local"
-        name="payment_date"
-        value={formData.payment_date || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("payment_date", { required: true, value: installment?.payment_date })}
       />
       <button
         type="submit"

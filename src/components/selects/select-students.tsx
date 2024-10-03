@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { listStudents } from '@/api/students/list-students';
+import { useFormContext } from 'react-hook-form';
 
 interface DataOption {
   id: number;
@@ -9,11 +10,11 @@ interface DataOption {
 }
 
 interface SelectComponentProps {
-  onSelect: (selectedValue: number | '') => void;
-  value: number;
+  student_id: number | undefined;
 }
 
-const SelectStudents: React.FC<SelectComponentProps> = ({ onSelect, value }) => {
+const SelectStudents: React.FC<SelectComponentProps> = ({ student_id }) => {
+  const { register } = useFormContext();
   const [options, setOptions] = useState<DataOption[]>([]);
 
   useEffect(() => {
@@ -25,21 +26,14 @@ const SelectStudents: React.FC<SelectComponentProps> = ({ onSelect, value }) => 
     loadOptions();
   }, []);
 
-  const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedValue = Number(e.target.value);
-    onSelect(selectedValue);
-  };
-
-
   return (
     <div>
       <label htmlFor="select-students" className="block mb-2">Selecione um Estudante:</label>
       <select
         id="select-students"
-        name="student_id"
-        value={value}
-        onChange={handleSelectChange}
         className="block w-full px-4 py-2 border rounded"
+        value={student_id}
+        {...register("student_id", { required: true })}
       >
         <option value="">Selecione</option>
         {options.map(option => (

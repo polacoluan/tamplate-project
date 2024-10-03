@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import InputMask from 'react-input-mask';
 import { createStudent } from '@/api/students/create-student';
 import { updateStudent } from '@/api/students/update-student';
 import { Student } from '@/types/student';
+import { useForm, SubmitHandler } from 'react-hook-form';
 
 interface StudentFormProps {
   student?: Student;
@@ -12,45 +13,13 @@ interface StudentFormProps {
 }
 
 const StudentForm: React.FC<StudentFormProps> = ({ student, onSuccess }) => {
-  const [formData, setFormData] = useState<Student>({
-    id: 0,
-    name: '',
-    email: '',
-    cellphone: '',
-    birth_date: '',
-    cpf: ''
-  });
-
-  useEffect(() => {
-    if (student) {
-      setFormData(student);
-    } else {
-      setFormData({
-        id: 0,
-        name: '',
-        email: '',
-        cellphone: '',
-        birth_date: '',
-        cpf: ''
-      });
-    }
-  }, [student]);
-
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = async (event: React.FormEvent) => {
-    event.preventDefault();
+  const { register, handleSubmit } = useForm<Student>()
+  const onSubmit: SubmitHandler<Student> = async (data) => {
     try {
       if (student) {
-        await updateStudent(student.id, formData);
+        await updateStudent(student.id, data);
       } else {
-        await createStudent(formData);
+        await createStudent(data);
       }
       onSuccess();
     } catch (error) {
@@ -59,29 +28,23 @@ const StudentForm: React.FC<StudentFormProps> = ({ student, onSuccess }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
       <label htmlFor="name" className="block mb-2">Nome:</label>
       <input
         id="name"
         type="text"
-        name="name"
         placeholder="Nome"
-        value={formData.name || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("name", { required: true, value: student?.name })}
       />
 
       <label htmlFor="email" className="block mb-2">Email:</label>
       <input
         id="email"
         type="email"
-        name="email"
         placeholder="Email"
-        value={formData.email || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("email", { required: true, value: student?.email })}
       />
 
       <label htmlFor="cellphone" className="block mb-2">Celular:</label>
@@ -89,23 +52,17 @@ const StudentForm: React.FC<StudentFormProps> = ({ student, onSuccess }) => {
         id="cellphone"
         mask="(99) 99999-9999"
         type="text"
-        name="cellphone"
         placeholder="(00) 00000-0000"
-        value={formData.cellphone || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("cellphone", { required: true, maxLength: 15, value: student?.cellphone })}
       />
 
       <label htmlFor="birth_date" className="block mb-2">Data de Nascimento:</label>
       <input
         id="birth_date"
         type="date"
-        name="birth_date"
-        value={formData.birth_date || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("birth_date", { required: true, valueAsDate: true, value: student?.birth_date })}
       />
 
       <label htmlFor="cpf" className="block mb-2">CPF:</label>
@@ -113,12 +70,9 @@ const StudentForm: React.FC<StudentFormProps> = ({ student, onSuccess }) => {
         id="cpf"
         mask="999.999.999-99"
         type="text"
-        name="cpf"
         placeholder="000.000.000-00"
-        value={formData.cpf || ''}
-        onChange={handleChange}
         className="block w-full px-4 py-2 border rounded"
-        required
+        {...register("cpf", { required: true, maxLength: 14, value: student?.cpf })}
       />
       <button
         type="submit"
