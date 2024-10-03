@@ -1,5 +1,4 @@
-// app/components/Modal.tsx
-"use client"; // Ensure this is present
+"use client";
 
 import React, { useEffect } from 'react';
 import Modal from 'react-modal';

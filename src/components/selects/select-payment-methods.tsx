@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { listPaymentMethods } from '../../services/payment-method/list-payment-methods';
+import { listPaymentMethods } from '@/api/payment-methods/list-payment-methods';
 
 interface DataOption {
   id: number;

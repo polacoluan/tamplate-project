@@ -1,6 +1,7 @@
-import api from "../api";
+import api from "@/api/api";
+import { Student } from "@/types/payment-table";
 
-export async function createStudent(params) {
+export async function createStudent(params: Student) {
     const route = "student/";
 
     try {

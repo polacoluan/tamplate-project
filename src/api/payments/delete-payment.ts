@@ -1,6 +1,6 @@
-import api from "../api";
+import api from "@/api/api";
 
-export async function deletePayment(id) {
+export async function deletePayment(id: number) {
     const route = "payment/"+id;
 
     try {

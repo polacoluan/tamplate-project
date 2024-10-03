@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from 'react';
 import InputMask from 'react-input-mask';
-import { createStudent } from '../../services/student/create-student';
-import { updateStudent } from '../../services/student/update-student';
-import { Student } from '../../types/student';
+import { createStudent } from '@/api/students/create-student';
+import { updateStudent } from '@/api/students/update-student';
+import { Student } from '@/types/student';
 
 interface StudentFormProps {
   student?: Student;

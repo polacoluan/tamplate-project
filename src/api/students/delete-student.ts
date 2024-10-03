@@ -1,6 +1,6 @@
-import api from "../api";
+import api from "@/api/api";
 
-export async function deleteStudent(id) {
+export async function deleteStudent(id: number) {
     const route = "student/"+id;
 
     try {

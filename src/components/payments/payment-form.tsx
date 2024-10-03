@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from 'react';
 import InputMask from 'react-input-mask';
-import { createPayment } from '../../services/payment/create-payment';
-import { updatePayment } from '../../services/payment/update-payment';
-import { Payment } from '../../types/payment';
-import SelectStudents from "../selects/select-students"
-import SelectPaymentMethods from "../selects/select-payment-methods"
+import { createPayment } from '@/api/payments/create-payment';
+import { updatePayment } from '@/api/payments/update-payment';
+import { Payment } from '@/types/payment';
+import SelectStudents from "@/components/selects/select-students"
+import SelectPaymentMethods from "@/components/selects/select-payment-methods"
 
 interface PaymentFormProps {
     payment?: Payment;

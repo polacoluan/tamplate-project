@@ -1,6 +1,6 @@
-import api from "../api";
+import api from "@/api/api";
 
-export async function deleteInstallment(id) {
+export async function deleteInstallment(id: number) {
     const route = "installment/"+id;
 
     try {

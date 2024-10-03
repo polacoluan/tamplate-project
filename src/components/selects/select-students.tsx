@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { listStudents } from '../../services/student/list-students';
+import { listStudents } from '@/api/students/list-students';
 
 interface DataOption {
   id: number;

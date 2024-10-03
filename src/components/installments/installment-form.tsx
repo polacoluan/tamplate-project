@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Installment } from '../../types/installment';
-import { updateInstallment } from '../../services/installment/update-installment';
+import { Installment } from '@/types/installment';
+import { updateInstallment } from '@/api/installments/update-installment';
 
 interface InstallmentFormProps {
   installment?: Installment;

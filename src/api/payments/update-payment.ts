@@ -1,6 +1,7 @@
-import api from "../api";
+import api from "@/api/api";
+import { Payment } from "@/types/payment";
 
-export async function updatePayment(id, params) {
+export async function updatePayment(id: number, params: Payment) {
     const route = "payment/"+id;
 
     try {
