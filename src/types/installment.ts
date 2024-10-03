@@ -1,4 +1,3 @@
-// types/Installment.ts
 export interface Installment {
     id: number;
     installment: number;

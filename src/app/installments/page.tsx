@@ -38,11 +38,6 @@ const InstallmentPage = () => {
     setEditModalOpen(true);
   };
 
-  const openAddModal = () => {
-    setCurrentInstallment(null);
-    setAddModalOpen(true);
-  };
-
   const closeModal = () => {
     setEditModalOpen(false);
     setAddModalOpen(false);
@@ -57,8 +52,7 @@ const InstallmentPage = () => {
   useEffect(() => {
     loadInstallments();
   }, []);
-
-
+  
   return (
     <div className="container mx-auto">
       <h1 className="text-2xl font-bold mb-4 text-center">Lista de Parcelas</h1>
