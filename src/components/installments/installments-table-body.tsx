@@ -3,7 +3,7 @@ import { Installment } from "@/types/installment"
 
 interface InstallmentTableBodyProps {
     installments: Installment[];
-    openEditModal: (payment: Installment) => void;
+    openEditModal: (installment: Installment) => void;
     handleDelete: (id: number) => void;
 }
 

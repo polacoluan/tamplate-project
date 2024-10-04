@@ -5,34 +5,27 @@ import React from "react";
 import { login } from "@/api/login/login";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { useRouter } from 'next/navigation';
+import { AxiosError } from "axios";
 
 const LoginPage = () => {
     const { register, handleSubmit } = useForm<Login>();
     const router = useRouter();
     const onSubmit: SubmitHandler<Login> = async (data) => {
-        try {
-            const response = await login(data);  
-            console.log(response);
-            if(response.status == 401){
-                alert("Usuário ou senha inválidos");
-            }else if(response.status == 500){
-                alert("Formulário enviado inválido");
-            }else if(response.status == 200){
-                router.push("/");
-            }else{
-                alert("Ocorreu um erro inesperado");
-            }
+        await login(data).then(() => {
 
-        } catch (error) {
-            console.error('Falha ao enviar o formulário:', error);
-        }
+            alert("Logado com sucesso");
+            router.push("/");
+        }).catch((error: AxiosError) => {
+            
+            alert(error)
+        });
     };
 
     return (
         <div className="border border-slate-700 rounded-lg w-1/5 m-auto mt-48 p-10">
             <h1 className="text-center m-4">Realizar Login</h1>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                <label htmlFor="installment" className="block mb-2">Número da parcela:</label>
+                <label htmlFor="installment" className="block mb-2">Nome:</label>
                 <input
                     id="email"
                     type="text"
@@ -41,7 +34,7 @@ const LoginPage = () => {
                     {...register("email", { required: true })}
                 />
 
-                <label htmlFor="amount" className="block mb-2">Valor da parcela:</label>
+                <label htmlFor="amount" className="block mb-2">Email:</label>
                 <input
                     id="password"
                     type="password"
@@ -61,6 +54,5 @@ const LoginPage = () => {
         </div>
     );
 };
-
 
 export default LoginPage;

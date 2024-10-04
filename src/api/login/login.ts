@@ -1,26 +1,23 @@
+import { setUniCookie } from "@/actions/set-cookie";
 import api from "@/api/api";
 import { Login } from "@/types/login";
 
 export async function login(params: Login) {
     const route = "/clients/web/login";
-
-    const response = await api.post(route, params, {
-        headers: { 'Content-type': 'application/json', 'Accept': 'application/json' }
-    }).then(function (response) {
+    try {
+        const response = await api.post(route, params);
         
-        return response;
-    }).catch(function (error) {
-        if (error.response) {
+        if(response.status == 200){                    
+            
+            setUniCookie(response.data.data.access_token);
 
-            return error.response;
-        } else if (error.request) {
-
-           return error.request;
-        } else {
-
-            return error.message;
+            return response.data.data;
         }
-    });
 
-    return response;
+        throw new Error()
+    } catch (error) {
+        
+        throw new Error("Ocorreu um erro ao realizar o login, senha ou usuário inválidos")
+    }
+    
 }
