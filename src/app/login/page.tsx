@@ -1,13 +1,13 @@
 "use client";
 
 import { Login } from "@/types/login";
-import React from "react";
+import React, { useState} from "react";
 import { login } from "@/api/login/login";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { useRouter } from 'next/navigation';
-import { AxiosError } from "axios";
 
 const LoginPage = () => {
+    const [errorMessage, setErrorMessage] = useState("")
     const { register, handleSubmit } = useForm<Login>();
     const router = useRouter();
     const onSubmit: SubmitHandler<Login> = async (data) => {
@@ -15,14 +15,17 @@ const LoginPage = () => {
 
             alert("Logado com sucesso");
             router.push("/");
-        }).catch((error: AxiosError) => {
-            
-            alert(error)
+        }).catch((error) => {
+
+            setErrorMessage(error.message)
         });
     };
 
     return (
         <div className="border border-slate-700 rounded-lg w-1/5 m-auto mt-48 p-10">
+            <div className={`${errorMessage ? 'block' : 'hidden'} bg-red-200 rounded-lg mt-2 mb-2 p-5 text-center`}>
+                <span className='text-red-900'>{errorMessage}</span>
+            </div>
             <h1 className="text-center m-4">Realizar Login</h1>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                 <label htmlFor="installment" className="block mb-2">Nome:</label>

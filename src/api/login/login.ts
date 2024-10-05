@@ -15,9 +15,10 @@ export async function login(params: Login) {
         }
 
         throw new Error()
-    } catch (error) {
+    } catch (error: any) {
         
-        throw new Error("Ocorreu um erro ao realizar o login, senha ou usuário inválidos")
+        const {data, status} = error.response;
+        throw new Error(data.message)
     }
     
 }

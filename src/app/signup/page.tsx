@@ -4,7 +4,6 @@ import { User } from '@/types/user';
 import { signup } from "@/api/login/signup"
 import { useRouter } from 'next/navigation';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { AxiosError } from 'axios';
 import { useState } from 'react';
 
 const SignupPage = () => {

@@ -13,8 +13,9 @@ export async function signup(params: User) {
         }
 
         throw new Error()
-    } catch (error) {
+    } catch (error: any) {
 
-        throw new Error("Ocorreu um erro ao cadastrar o usuário!")
+        const {data, status} = error.response;
+        throw new Error(data.message)
     }
 }
