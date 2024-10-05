@@ -12,7 +12,9 @@ class CreatePaymentRequest extends ParentRequest
     ];
 
     protected array $decode = [
-        // 'id',
+        'id',
+        'student_id',
+        'payment_method_id'
     ];
 
     protected array $urlParameters = [

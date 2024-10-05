@@ -7,24 +7,11 @@ use App\Ship\Parents\Transformers\Transformer as ParentTransformer;
 
 class InstallmentTransformer extends ParentTransformer
 {
-    protected array $defaultIncludes = [
-    
-    ];
-
-    protected array $availableIncludes = [
-        
-    ];
-
     public function transform(Installment $installment): array
     {
-        $response = [
-            'object' => $installment->getResourceKey(),
-            'id' => $installment->getHashedKey(),
-        ];
-
         return [
-            'id' => $installment->id,
-            'payment_id' => $installment->payment_id,
+            'id' => $installment->getHashedKey(),
+            'payment_id' => $installment->getHashedKey("payment_id"),
             'installment' => $installment->installment,
             'amount' => $installment->amount,
             'payment_date' => $installment->payment_date,

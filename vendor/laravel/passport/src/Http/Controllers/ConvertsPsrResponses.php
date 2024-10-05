@@ -13,7 +13,7 @@ trait ConvertsPsrResponses
      * @return \Illuminate\Http\Response
      */
     public function convertResponse($psrResponse)
-    {
+    {   
         return new Response(
             $psrResponse->getBody(),
             $psrResponse->getStatusCode(),

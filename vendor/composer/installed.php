@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'apiato/apiato',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '6e7d259fc5d123520fbcf29a338561237f401449',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => true,
         ),
         'apiato/apiato' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '6e7d259fc5d123520fbcf29a338561237f401449',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

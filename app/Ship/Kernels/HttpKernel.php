@@ -5,6 +5,7 @@ namespace App\Ship\Kernels;
 use Apiato\Core\Middlewares\Http\ProcessETagHeadersMiddleware;
 use Apiato\Core\Middlewares\Http\ProfilerMiddleware;
 use Apiato\Core\Middlewares\Http\ValidateJsonContent;
+use App\Containers\UniSection\Middlewares\CheckUniSectionMiddleware;
 use App\Ship\Middlewares\Authenticate;
 use App\Ship\Middlewares\EncryptCookies;
 use App\Ship\Middlewares\PreventRequestsDuringMaintenance;
@@ -91,6 +92,7 @@ class HttpKernel extends LaravelHttpKernel
         'signed' => ValidateSignature::class,
         'throttle' => ThrottleRequests::class,
         'verified' => EnsureEmailIsVerified::class,
+        'check.uni.section' => CheckUniSectionMiddleware::class,
     ];
 
     /**

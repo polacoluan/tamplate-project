@@ -23,7 +23,7 @@ class UpdatePaymentAction extends ParentAction
      * @throws NotFoundException
      */
     public function run(UpdatePaymentRequest $request): Payment
-    {
+    {   
         $data = $request->sanitizeInput([
             'student_id',
             'amount',

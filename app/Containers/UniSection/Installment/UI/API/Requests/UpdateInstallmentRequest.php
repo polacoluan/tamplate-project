@@ -13,6 +13,7 @@ class UpdateInstallmentRequest extends ParentRequest
 
     protected array $decode = [
         'id',
+        'payment_id'
     ];
 
     protected array $urlParameters = [

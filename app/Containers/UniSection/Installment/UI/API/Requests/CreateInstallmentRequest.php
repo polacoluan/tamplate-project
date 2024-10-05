@@ -12,7 +12,8 @@ class CreateInstallmentRequest extends ParentRequest
     ];
 
     protected array $decode = [
-        // 'id',
+        'id',
+        'payment_id'
     ];
 
     protected array $urlParameters = [

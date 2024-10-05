@@ -22,6 +22,7 @@
  * }
  */
 
+use App\Containers\UniSection\Middlewares\CheckUniSectionMiddleware;
 use App\Containers\UniSection\Student\UI\API\Controllers\ListStudentsController;
 use Illuminate\Support\Facades\Route;
 

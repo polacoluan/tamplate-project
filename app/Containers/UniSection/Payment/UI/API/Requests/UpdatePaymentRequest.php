@@ -13,6 +13,8 @@ class UpdatePaymentRequest extends ParentRequest
 
     protected array $decode = [
         'id',
+        'student_id',
+        'payment_method_id'
     ];
 
     protected array $urlParameters = [

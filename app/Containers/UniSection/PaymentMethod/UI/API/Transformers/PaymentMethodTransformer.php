@@ -7,23 +7,10 @@ use App\Ship\Parents\Transformers\Transformer as ParentTransformer;
 
 class PaymentMethodTransformer extends ParentTransformer
 {
-    protected array $defaultIncludes = [
-
-    ];
-
-    protected array $availableIncludes = [
-
-    ];
-
     public function transform(PaymentMethod $paymentmethod): array
     {
-        $response = [
-            'object' => $paymentmethod->getResourceKey(),
-            'id' => $paymentmethod->getHashedKey(),
-        ];
-
         return [
-            'id' => $paymentmethod->id,
+            'id' => $paymentmethod->getHashedKey(),
             'method' => $paymentmethod->method,
             'installments' => $paymentmethod->installments,
             'created_at' => $paymentmethod->created_at,
