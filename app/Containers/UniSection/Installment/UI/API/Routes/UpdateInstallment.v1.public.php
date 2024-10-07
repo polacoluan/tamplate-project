@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Installment\UI\API\Controllers\UpdateInstallmentController;
 use Illuminate\Support\Facades\Route;
 
-Route::patch('installment/{id}', UpdateInstallmentController::class);
+Route::patch('installment/{id}', UpdateInstallmentController::class)->middleware(["auth:api"]);
 

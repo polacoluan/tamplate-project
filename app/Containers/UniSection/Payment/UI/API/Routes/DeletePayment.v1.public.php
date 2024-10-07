@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Payment\UI\API\Controllers\DeletePaymentController;
 use Illuminate\Support\Facades\Route;
 
-Route::delete('payment/{id}', DeletePaymentController::class);
+Route::delete('payment/{id}', DeletePaymentController::class)->middleware(["auth:api"]);
 

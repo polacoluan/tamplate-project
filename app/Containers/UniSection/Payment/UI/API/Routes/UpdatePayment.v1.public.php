@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Payment\UI\API\Controllers\UpdatePaymentController;
 use Illuminate\Support\Facades\Route;
 
-Route::patch('payment/{id}', UpdatePaymentController::class);
+Route::patch('payment/{id}', UpdatePaymentController::class)->middleware(["auth:api"]);
 

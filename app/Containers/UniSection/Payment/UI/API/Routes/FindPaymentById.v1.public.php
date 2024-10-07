@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Payment\UI\API\Controllers\FindPaymentByIdController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('payment/{id}', FindPaymentByIdController::class);
+Route::get('payment/{id}', FindPaymentByIdController::class)->middleware(["auth:api"]);
 

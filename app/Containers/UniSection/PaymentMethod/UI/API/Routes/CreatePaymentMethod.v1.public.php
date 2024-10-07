@@ -25,5 +25,5 @@
 use App\Containers\UniSection\PaymentMethod\UI\API\Controllers\CreatePaymentMethodController;
 use Illuminate\Support\Facades\Route;
 
-Route::post('payment-methods', CreatePaymentMethodController::class);
+Route::post('payment-methods', CreatePaymentMethodController::class)->middleware(["auth:api"]);
 

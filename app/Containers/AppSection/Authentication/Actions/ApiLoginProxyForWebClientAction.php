@@ -44,8 +44,7 @@ class ApiLoginProxyForWebClientAction extends ParentAction
                 $refreshTokenCookie = $this->makeRefreshTokenCookieTask->run($token->refreshToken);
 
                 return new AuthResult($token, $refreshTokenCookie);
-            } catch (LoginFailedException) {
-                // try the next login field
+            } catch (LoginFailedException $e) {
             }
         }
 

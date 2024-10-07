@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Student\UI\API\Controllers\UpdateStudentController;
 use Illuminate\Support\Facades\Route;
 
-Route::patch('student/{id}', UpdateStudentController::class);
+Route::patch('student/{id}', UpdateStudentController::class)->middleware(["auth:api"]);
 

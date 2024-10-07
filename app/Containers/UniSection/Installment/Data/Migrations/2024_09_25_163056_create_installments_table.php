@@ -9,7 +9,7 @@ return new class() extends Migration {
     {
         Schema::create('installments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId("payment_id")->constrained();
+            $table->foreignId("payment_id")->constrained()->onDelete('cascade');
             $table->integer("installment")->default(1);
             $table->decimal("amount", 10, 2);
             $table->dateTime("payment_date")->nullable();

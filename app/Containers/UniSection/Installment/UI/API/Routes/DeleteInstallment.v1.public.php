@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Installment\UI\API\Controllers\DeleteInstallmentController;
 use Illuminate\Support\Facades\Route;
 
-Route::delete('installment/{id}', DeleteInstallmentController::class);
+Route::delete('installment/{id}', DeleteInstallmentController::class)->middleware(["auth:api"]);
 

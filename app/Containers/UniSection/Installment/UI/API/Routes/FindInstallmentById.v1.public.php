@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Installment\UI\API\Controllers\FindInstallmentByIdController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('installment/{id}', FindInstallmentByIdController::class);
+Route::get('installment/{id}', FindInstallmentByIdController::class)->middleware(["auth:api"]);
 

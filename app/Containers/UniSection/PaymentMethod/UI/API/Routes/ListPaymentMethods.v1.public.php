@@ -25,5 +25,5 @@
 use App\Containers\UniSection\PaymentMethod\UI\API\Controllers\ListPaymentMethodsController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('payment-methods', ListPaymentMethodsController::class);
+Route::get('payment-methods', ListPaymentMethodsController::class)->middleware(["auth:api"]);
 

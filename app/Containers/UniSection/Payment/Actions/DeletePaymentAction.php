@@ -24,26 +24,7 @@ class DeletePaymentAction extends ParentAction
      * @throws NotFoundException
      */
     public function run(DeletePaymentRequest $request): int
-    {
-        $this->deleteInstallments($request->id);
-        
+    {   
         return $this->deletePaymentTask->run($request->id);
-    }
-
-    private function deleteInstallments($paymentId)
-    {
-        
-        $installments = $this->findInstallmentByPaymentIdTask->run($paymentId);
-        
-        if(!empty($installments) &&count($installments) === 1){
-
-            $this->deleteInstallmentTask->run($installments->id);
-        }else if(!empty($installments) && count($installments) > 1){
-
-            foreach ($installments as $key => $value) {
-                
-                $this->deleteInstallmentTask->run($value->id);
-            }
-        }
     }
 }

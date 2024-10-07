@@ -25,5 +25,5 @@
 use App\Containers\UniSection\Student\UI\API\Controllers\CreateStudentController;
 use Illuminate\Support\Facades\Route;
 
-Route::post('student', CreateStudentController::class);
+Route::post('student', CreateStudentController::class)->middleware(["auth:api"]);
 

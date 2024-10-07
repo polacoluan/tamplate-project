@@ -137,6 +137,8 @@ namespace App\Containers\UniSection\Installment\Models{
  * @property string|null $payment_date
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read mixed $student_name
+ * @property-read \App\Containers\UniSection\Payment\Models\Payment $payment
  * @method static \App\Containers\UniSection\Installment\Data\Factories\InstallmentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Installment newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Installment newQuery()
@@ -162,6 +164,10 @@ namespace App\Containers\UniSection\Payment\Models{
  * @property int $payment_method_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Containers\UniSection\Installment\Models\Installment> $installments
+ * @property-read int|null $installments_count
+ * @property-read \App\Containers\UniSection\PaymentMethod\Models\PaymentMethod $paymentMethod
+ * @property-read \App\Containers\UniSection\Student\Models\Student $student
  * @method static \App\Containers\UniSection\Payment\Data\Factories\PaymentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Payment newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Payment newQuery()
@@ -185,6 +191,7 @@ namespace App\Containers\UniSection\PaymentMethod\Models{
  * @property int $installments
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \App\Containers\UniSection\Payment\Models\Payment|null $payment
  * @method static \App\Containers\UniSection\PaymentMethod\Data\Factories\PaymentMethodFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|PaymentMethod newQuery()
@@ -210,6 +217,8 @@ namespace App\Containers\UniSection\Student\Models{
  * @property string $cpf
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Containers\UniSection\Payment\Models\Payment> $payments
+ * @property-read int|null $payments_count
  * @method static \App\Containers\UniSection\Student\Data\Factories\StudentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Student newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Student newQuery()
