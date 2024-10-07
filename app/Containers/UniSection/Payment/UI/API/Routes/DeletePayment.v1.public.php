@@ -1,25 +1,21 @@
 <?php
 
 /**
- * @apiGroup           Payment
- * @apiName            DeletePayment
+ * @apiGroup           Pagamento
+ * @apiName            Excluir Pagamento
  *
- * @api                {DELETE} /v1/payment/:id Delete Payment
- * @apiDescription     Endpoint description here...
+ * @api                {DELETE} /v1/payment/:id Excluir Pagamento
+ * @apiDescription     Exclui um pagamento e suas parcelas
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
+ * @apiParam           {Integer} id id do Pagamento, id único.
  *
  * @apiSuccessExample  {json} Success-Response:
- * HTTP/1.1 200 OK
- * {
- *     // Insert the response of the request here...
- * }
+ * HTTP/1.1 204 No Content
  */
 
 use App\Containers\UniSection\Payment\UI\API\Controllers\DeletePaymentController;

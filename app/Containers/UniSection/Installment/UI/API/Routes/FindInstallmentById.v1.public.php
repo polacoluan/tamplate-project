@@ -1,24 +1,36 @@
 <?php
 
 /**
- * @apiGroup           Installment
- * @apiName            FindInstallmentById
+ * @apiGroup           Parcela
+ * @apiName            Buscar parcela a partir do id
  *
- * @api                {GET} /v1/installment/:id Find Installment By Id
- * @apiDescription     Endpoint description here...
+ * @api                {GET} /v1/installment/:id Buscar parcela a partir do id
+ * @apiDescription     Busca uma parcela a partir do id
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
+ * @apiParam           {Integer} id id da parcela, id único
  *
  * @apiSuccessExample  {json} Success-Response:
  * HTTP/1.1 200 OK
  * {
- *     // Insert the response of the request here...
+ *     "data": {
+ *         "id": "p6ELeYGQXzZ1PjWR",
+ *         "payment_id": "p6ELeYGQXzZ1PjWR",
+ *         "installment": 1,
+ *         "amount": "1050.59",
+ *         "payment_date": "2024-02-20 08:00:00",
+ *         "student_name": "Example Update",
+ *         "created_at": "2024-10-07T18:02:45.000000Z",
+ *         "updated_at": "2024-10-07T18:51:32.000000Z"
+ *     },
+ *     "meta": {
+ *        "include": [],
+ *         "custom": []
+ *     }
  * }
  */
 

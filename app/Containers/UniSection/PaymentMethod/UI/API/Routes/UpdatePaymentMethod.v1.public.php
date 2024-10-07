@@ -1,24 +1,36 @@
 <?php
 
 /**
- * @apiGroup           PaymentMethod
- * @apiName            UpdatePaymentMethod
+ * @apiGroup           Método de Pagamento
+ * @apiName            Atualizar Método de Pagamento
  *
- * @api                {PATCH} /v1/payment-methods/:id Update Payment Way
- * @apiDescription     Endpoint description here...
+ * @api                {PATCH} /v1/payment-methods/:id Atualizar Método de Pagamento
+ * @apiDescription     Autaliza um método de pagamento a partir do id
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
+ * @apiBody {String} method         Nome do método, obrigatório.
+ * @apiBody {String} installments          Quantidade de parcelas do método, obrigatório.
+ * 
+ * @apiParam           {Integer} id id do método de pagamento, id único.
  *
  * @apiSuccessExample  {json} Success-Response:
  * HTTP/1.1 200 OK
- * {
- *     // Insert the response of the request here...
+* {
+ *     "data": {
+ *         "id": "39n0Z12OZGKERJgW",
+ *         "method": "credito",
+ *         "installments": 3,
+ *         "created_at": "2024-10-07T18:32:50.000000Z",
+ *         "updated_at": "2024-10-07T18:32:50.000000Z"
+ *     },
+ *     "meta": {
+ *         "include": [],
+ *         "custom": []
+ *     }
  * }
  */
 

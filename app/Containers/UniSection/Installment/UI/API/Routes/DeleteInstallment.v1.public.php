@@ -1,25 +1,21 @@
 <?php
 
 /**
- * @apiGroup           Installment
- * @apiName            DeleteInstallment
+ * @apiGroup           Parcela
+ * @apiName            Excluir Parcela
  *
- * @api                {DELETE} /v1/installment/:id Delete Installment
- * @apiDescription     Endpoint description here...
+ * @api                {DELETE} /v1/installment/:id Excluir Parcela
+ * @apiDescription     Exclui uma parcela
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
+ * @apiParam           {Integer} id id da parcela, id único
  *
  * @apiSuccessExample  {json} Success-Response:
- * HTTP/1.1 200 OK
- * {
- *     // Insert the response of the request here...
- * }
+ * HTTP/1.1 204 No Content
  */
 
 use App\Containers\UniSection\Installment\UI\API\Controllers\DeleteInstallmentController;

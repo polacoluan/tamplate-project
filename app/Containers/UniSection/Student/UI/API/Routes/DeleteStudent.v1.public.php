@@ -1,25 +1,21 @@
 <?php
 
 /**
- * @apiGroup           Student
- * @apiName            DeleteStudent
+ * @apiGroup           Estudante
+ * @apiName            Excluir Estudante
  *
- * @api                {DELETE} /v1/student/:id Delete Student
- * @apiDescription     Endpoint description here...
+ * @api                {DELETE} /v1/student/:id Excluir Estudante
+ * @apiDescription     Exclui um estudante, seus pagamentos e suas parcelas
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
+ * @apiParam           {Integer} id id do Estudante, id único.
  *
  * @apiSuccessExample  {json} Success-Response:
- * HTTP/1.1 200 OK
- * {
- *     // Insert the response of the request here...
- * }
+ * HTTP/1.1 204 No Content
  */
 
 use App\Containers\UniSection\Student\UI\API\Controllers\DeleteStudentController;

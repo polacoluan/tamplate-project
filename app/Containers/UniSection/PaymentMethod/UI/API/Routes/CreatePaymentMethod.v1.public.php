@@ -1,24 +1,34 @@
 <?php
 
 /**
- * @apiGroup           PaymentMethod
- * @apiName            CreatePaymentMethod
+ * @apiGroup           Método de Pagamento
+ * @apiName            Criar Método de Pagamento
  *
- * @api                {POST} /v1/payment-methods Create Payment Way
- * @apiDescription     Endpoint description here...
+ * @api                {POST} /v1/payment-methods Criar Método de Pagamento
+ * @apiDescription     Cria um método de pagamento
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
- *
+ * @apiBody {String} method         Nome do método, obrigatório.
+ * @apiBody {String} installments          Quantidade de parcelas do método, obrigatório.
+ * 
  * @apiSuccessExample  {json} Success-Response:
  * HTTP/1.1 200 OK
  * {
- *     // Insert the response of the request here...
+ *     "data": {
+ *         "id": "39n0Z12OZGKERJgW",
+ *         "method": "credito",
+ *         "installments": 3,
+ *         "created_at": "2024-10-07T18:32:50.000000Z",
+ *         "updated_at": "2024-10-07T18:32:50.000000Z"
+ *     },
+ *     "meta": {
+ *         "include": [],
+ *         "custom": []
+ *     }
  * }
  */
 

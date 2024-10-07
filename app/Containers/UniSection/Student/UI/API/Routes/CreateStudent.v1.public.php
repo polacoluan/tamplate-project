@@ -1,25 +1,41 @@
 <?php
 
 /**
- * @apiGroup           Student
- * @apiName            CreateStudent
+ * @apiGroup           Estudante
+ * @apiName            Criar Estudante
  *
- * @api                {POST} /v1/student Create Student
- * @apiDescription     Endpoint description here...
+ * @api                {POST} /v1/student Criar Estudante
+ * @apiDescription     Cria um novo estudante
  *
  * @apiVersion         1.0.0
- * @apiPermission      Authenticated ['permissions' => '', 'roles' => '']
  *
  * @apiHeader          {String} accept=application/json
  * @apiHeader          {String} authorization=Bearer
  *
- * @apiParam           {String} parameters here...
+ * @apiBody {String} name           Nome do estudante, obrigatório.
+ * @apiBody {String} email          Email do estudante, obrigatório.
+ * @apiBody {String} cellphone      Número de celular do estudante, obrigatório.
+ * @apiBody {Date} birth_date       Aniversário do estudante, obrigatório.
+ * @apiBody {String} cpf            CPF do estudante, obrigatório
  *
  * @apiSuccessExample  {json} Success-Response:
- * HTTP/1.1 200 OK
- * {
- *     // Insert the response of the request here...
- * }
+ * HTTP/1.1 201 OK
+ *    {
+ *       "data": {
+ *          "id": "39n0Z12OZGKERJgW",
+ *          "name": "Example",
+ *          "email": "example@gmail.com",
+ *          "cellphone": "(41) 99090-7070",
+ *          "birth_date": "1999-03-24",
+ *          "cpf": "304.202.304-02",
+ *          "created_at": "2024-10-07T17:32:14.000000Z",
+ *          "updated_at": "2024-10-07T17:32:14.000000Z"
+ *      },
+ *      "meta": {
+ *          "include": [],
+ *          "custom": []
+ *      }
+ *     }
  */
 
 use App\Containers\UniSection\Student\UI\API\Controllers\CreateStudentController;
