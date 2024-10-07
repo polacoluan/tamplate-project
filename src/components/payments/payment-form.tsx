@@ -37,8 +37,9 @@ const PaymentForm: React.FC<PaymentFormProps> = ({ payment, onSuccess }) => {
                 <label htmlFor="amount" className="block mb-2">Valor à pagar:</label>
                 <input
                     id="amount"
-                    type="text"
-                    placeholder="0000.00"
+                    type="number"
+                    placeholder="Informe o valor à pagar"
+                    min="0"
                     className="block w-full px-4 py-2 border rounded"
                     {...methods.register("amount", { required: true, maxLength: 14, value: payment?.amount })}
                 />

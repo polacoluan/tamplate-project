@@ -58,26 +58,6 @@ const SignupPage = () => {
                         {...register("password", { required: true })}
                     />
                 </div>
-                <div>
-                    <label htmlFor="birth" className="block mb-2">Aniversário</label>
-                    <input
-                        id="birth"
-                        type="date"
-                        className="block w-full px-4 py-2 border rounded"
-                        {...register("birth", { required: true })}
-                    />
-                </div>
-                <div>
-                    <label htmlFor="gender" className="block mb-2">Genero</label>
-                    <select
-                        id="gender"
-                        className="block w-full px-4 py-2 border rounded"
-                        {...register("gender", { required: true, value: 'male' })}
-                    >
-                        <option value="male">Masculino</option>
-                        <option value="female">Feminino</option>
-                    </select>
-                </div>
                 <div className="text-right">
                     <button
                         type="submit"

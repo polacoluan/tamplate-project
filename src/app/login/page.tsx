@@ -28,7 +28,7 @@ const LoginPage = () => {
             </div>
             <h1 className="text-center m-4">Realizar Login</h1>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                <label htmlFor="installment" className="block mb-2">Nome:</label>
+                <label htmlFor="email" className="block mb-2">Email:</label>
                 <input
                     id="email"
                     type="text"
@@ -37,7 +37,7 @@ const LoginPage = () => {
                     {...register("email", { required: true })}
                 />
 
-                <label htmlFor="amount" className="block mb-2">Email:</label>
+                <label htmlFor="password" className="block mb-2">Senha:</label>
                 <input
                     id="password"
                     type="password"
