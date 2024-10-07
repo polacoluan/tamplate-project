@@ -22,7 +22,7 @@ class FindPaymentMethodByIdRequest extends ParentRequest
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'id' => 'required',
         ];
     }
 

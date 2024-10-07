@@ -22,7 +22,7 @@ class DeletePaymentMethodRequest extends ParentRequest
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'id' => 'required',
         ];
     }
 

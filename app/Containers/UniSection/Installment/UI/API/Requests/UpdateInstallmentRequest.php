@@ -23,7 +23,11 @@ class UpdateInstallmentRequest extends ParentRequest
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'id' => 'required',
+            'payment_id' => 'required|integer',
+            'installment' => 'required|integer',
+            'amount' => 'required|decimal',
+            'payment_date' => 'required|date'
         ];
     }
 

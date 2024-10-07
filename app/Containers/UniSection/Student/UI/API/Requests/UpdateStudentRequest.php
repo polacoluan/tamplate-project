@@ -22,7 +22,12 @@ class UpdateStudentRequest extends ParentRequest
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'id' => 'required',
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'cellphone' => 'required|string|max:15',
+            'birth_date' => 'required|date',
+            'cpf' => 'required|string|max:14'
         ];
     }
 

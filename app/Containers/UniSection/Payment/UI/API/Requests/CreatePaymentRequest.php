@@ -17,14 +17,12 @@ class CreatePaymentRequest extends ParentRequest
         'payment_method_id'
     ];
 
-    protected array $urlParameters = [
-        // 'id',
-    ];
-
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'student_id' => 'required|integer',
+            'amount' => 'required|decimal',
+            'payment_method_id' => 'required|integer'
         ];
     }
 

@@ -16,14 +16,13 @@ class CreateInstallmentRequest extends ParentRequest
         'payment_id'
     ];
 
-    protected array $urlParameters = [
-        // 'id',
-    ];
-
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'payment_id' => 'required|integer',
+            'installment' => 'required|integer',
+            'amount' => 'required|decimal',
+            'payment_date' => 'required|date'
         ];
     }
 

@@ -15,14 +15,11 @@ class CreatePaymentMethodRequest extends ParentRequest
         'id',
     ];
 
-    protected array $urlParameters = [
-        // 'id',
-    ];
-
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'method' => 'required|string',
+            'installments' => 'required|integer'
         ];
     }
 

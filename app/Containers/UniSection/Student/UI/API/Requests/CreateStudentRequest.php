@@ -15,14 +15,14 @@ class CreateStudentRequest extends ParentRequest
         'id',
     ];
 
-    protected array $urlParameters = [
-        // 'id',
-    ];
-
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'cellphone' => 'required|string|max:15',
+            'birth_date' => 'required|date',
+            'cpf' => 'required|string|max:14'
         ];
     }
 

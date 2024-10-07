@@ -24,7 +24,10 @@ class UpdatePaymentRequest extends ParentRequest
     public function rules(): array
     {
         return [
-            // 'id' => 'required',
+            'id' => 'required',
+            'student_id' => 'required|integer',
+            'amount' => 'required|decimal',
+            'payment_method_id' => 'required|integer'
         ];
     }
 
