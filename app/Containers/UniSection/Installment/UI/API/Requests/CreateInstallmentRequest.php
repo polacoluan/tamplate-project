@@ -21,7 +21,7 @@ class CreateInstallmentRequest extends ParentRequest
         return [
             'payment_id' => 'required|integer',
             'installment' => 'required|integer',
-            'amount' => 'required|decimal',
+            'amount' => 'required|decimal:2,2',
             'payment_date' => 'required|date'
         ];
     }

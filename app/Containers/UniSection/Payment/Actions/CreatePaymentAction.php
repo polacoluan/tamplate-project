@@ -48,7 +48,7 @@ class CreatePaymentAction extends ParentAction
             $data = [
                 'payment_id' => $payment->id,
                 'installment' => 1,
-                'amount' => number_format($payment->amount, 2, '.', ',')
+                'amount' => str_replace(",", "",number_format($payment->amount, 2, '.'))
             ];
 
             $this->createInstallmentTask->run($data);
@@ -61,7 +61,7 @@ class CreatePaymentAction extends ParentAction
                 $installmentData = [
                     'payment_id' => $payment->id,
                     'installment' => $i,
-                    'amount' => number_format($installmentAmount, 2, '.', ',')
+                    'amount' => str_replace(",", "",number_format($installmentAmount, 2, '.'))
                 ];
     
                 // Step 6: Call the CreateInstallmentAction to create each installment

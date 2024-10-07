@@ -26,7 +26,7 @@ class UpdatePaymentRequest extends ParentRequest
         return [
             'id' => 'required',
             'student_id' => 'required|integer',
-            'amount' => 'required|decimal',
+            'amount' => 'required',
             'payment_method_id' => 'required|integer'
         ];
     }

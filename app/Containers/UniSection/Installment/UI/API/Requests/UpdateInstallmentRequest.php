@@ -24,9 +24,8 @@ class UpdateInstallmentRequest extends ParentRequest
     {
         return [
             'id' => 'required',
-            'payment_id' => 'required|integer',
             'installment' => 'required|integer',
-            'amount' => 'required|decimal',
+            'amount' => 'required|decimal:2,2',
             'payment_date' => 'required|date'
         ];
     }

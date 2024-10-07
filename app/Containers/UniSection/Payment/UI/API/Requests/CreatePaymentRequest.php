@@ -21,7 +21,7 @@ class CreatePaymentRequest extends ParentRequest
     {
         return [
             'student_id' => 'required|integer',
-            'amount' => 'required|decimal',
+            'amount' => 'required',
             'payment_method_id' => 'required|integer'
         ];
     }

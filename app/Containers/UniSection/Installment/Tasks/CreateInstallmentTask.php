@@ -25,7 +25,8 @@ class CreateInstallmentTask extends ParentTask
             InstallmentCreatedEvent::dispatch($installment);
 
             return $installment;
-        } catch (\Exception) {
+        } catch (\Exception $e) {
+            dd($e->getMessage());
             throw new CreateResourceFailedException();
         }
     }
